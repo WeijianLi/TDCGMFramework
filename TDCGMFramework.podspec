@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TDCGMFramework"
-  spec.version      = "1.0.5"
+  spec.version      = "1.0.6"
   spec.summary      = "糖动SDK"
 
   # This description is used to generate tags and improve search results.
@@ -93,11 +93,14 @@ Pod::Spec.new do |spec|
     #error: 'TDFramework/TDFramework.h' file not found
   #spec.source_files  = 'TDCGMFramework/TDFramework.framework/Headers/*.{h,swift}' -- 报错
    #   spec.source_files  = 'TDCGMFramework/TDFramework.framework/Headers/*.swift' 报错
-     #  spec.source_files  = 'TDCGMFramework/TDFramework.framework/Headers/*.{h,m}' 可以打包但是没有缺文件
-    spec.source_files  = 'TDCGMFramework/TDFramework.framework'
+   #可以打包但是没有缺文件
+       #spec.source_files  = 'TDCGMFramework/TDFramework.framework/Headers/*.{h,m}'
+       #报错
+    spec.source_files  = 'TDCGMFramework/TDFramework.framework/**/*'
   #spec.exclude_files = "Classes/Exclude"
 
-  #spec.public_header_files = 'Headers/*.swift'
+    #设置后没看到区别
+ # spec.public_header_files = 'TDCGMFramework/TDFramework.framework/Headers/TDLibreManager.swift'
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -120,7 +123,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
+  spec.framework  = "TDCGMFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"

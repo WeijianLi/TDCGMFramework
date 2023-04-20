@@ -88,11 +88,6 @@ public typealias  TDActivateBlock = (_ error: TDErrorModel?) -> Void
     open class func getTDLog() -> String{
        return TDManager.shared.getTDLog()
     }
-    /// 解析糖动日志
-    open class func decryptTDLogInfo(s:String) -> String{
-       return TDManager.shared.decryptTDLogInfo(s: s)
-    }
-    
 }
 @objcMembers open class TDGlucoseDataModel : NSObject {
     //血糖时间

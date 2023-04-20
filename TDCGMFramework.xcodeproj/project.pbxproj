@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD35A36429EFD2E5000A702B /* TDFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD35A36329EFD2E5000A702B /* TDFramework.framework */; };
+		CD35A3A029F0FED2000A702B /* TDFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD35A39F29F0FED2000A702B /* TDFramework.framework */; };
 		CDBDF28429E8F7D9001909DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBDF28329E8F7D9001909DC /* AppDelegate.swift */; };
 		CDBDF28629E8F7D9001909DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBDF28529E8F7D9001909DC /* SceneDelegate.swift */; };
 		CDBDF28829E8F7D9001909DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBDF28729E8F7D9001909DC /* ViewController.swift */; };
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CD35A36329EFD2E5000A702B /* TDFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TDFramework.framework; sourceTree = "<group>"; };
+		CD35A39F29F0FED2000A702B /* TDFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TDFramework.framework; sourceTree = "<group>"; };
 		CD83294929ECF790009FC149 /* TDCGMFramework.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TDCGMFramework.entitlements; sourceTree = "<group>"; };
 		CDBDF28029E8F7D9001909DC /* TDCGMFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDCGMFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDBDF28329E8F7D9001909DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD35A36429EFD2E5000A702B /* TDFramework.framework in Frameworks */,
+				CD35A3A029F0FED2000A702B /* TDFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				CD83294929ECF790009FC149 /* TDCGMFramework.entitlements */,
-				CD35A36329EFD2E5000A702B /* TDFramework.framework */,
+				CD35A39F29F0FED2000A702B /* TDFramework.framework */,
 				CDBDF28329E8F7D9001909DC /* AppDelegate.swift */,
 				CDBDF28529E8F7D9001909DC /* SceneDelegate.swift */,
 				CDBDF28729E8F7D9001909DC /* ViewController.swift */,

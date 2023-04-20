@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TDCGMFramework"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.4"
   spec.summary      = "糖动SDK"
 
   # This description is used to generate tags and improve search results.
@@ -90,8 +90,9 @@ Pod::Spec.new do |spec|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-
-  spec.source_files  = "TDCGMFramework/TDFramework.framework/**/*.{h,swift}"
+    #error: 'TDFramework/TDFramework.h' file not found
+  #spec.source_files  = 'TDCGMFramework/TDFramework.framework/Headers/*.{h,swift}' -- 报错
+    spec.source_files  = 'TDCGMFramework/TDFramework.framework/Headers/*.swift'
   #spec.exclude_files = "Classes/Exclude"
 
   #spec.public_header_files = "TDCGMFramework/TDFramework.framework/Headers"

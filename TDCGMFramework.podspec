@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TDCGMFramework"
-  spec.version      = "1.0.6"
+  spec.version      = "1.0.7"
   spec.summary      = "糖动SDK"
 
   # This description is used to generate tags and improve search results.
@@ -96,7 +96,10 @@ Pod::Spec.new do |spec|
    #可以打包但是没有缺文件
        #spec.source_files  = 'TDCGMFramework/TDFramework.framework/Headers/*.{h,m}'
        #报错
-    spec.source_files  = 'TDCGMFramework/TDFramework.framework/**/*'
+   # spec.source_files  = 'TDCGMFramework/*' 报错
+ spec.source_files  = 'TDCGMFramework/TDFramework.framework/Headers/*.{h,m}'
+ spec.vendored_frameworks = 'TDCGMFramework/TDFramework.framework'
+ spec.swift_versions = "5.0"
   #spec.exclude_files = "Classes/Exclude"
 
     #设置后没看到区别

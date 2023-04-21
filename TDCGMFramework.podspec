@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TDCGMFramework"
-  spec.version      = "1.0.12"
+  spec.version      = "1.0.14"
   spec.summary      = "糖动SDK"
 
   # This description is used to generate tags and improve search results.

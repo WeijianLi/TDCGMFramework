@@ -11,6 +11,8 @@ end
 
 
 nfc和糖动发射器 读取libre1 血糖数据
+
+
 一、 必要配置
 1.     targets->Build Settings->Swift Language Version 设置为 Swift5
 2.     targets->Signing&Capabilities->+Capability 添加Near Field Communication Tag Reading 和Backgroud Modes， Backgroud Modes 内选中Uses Bluetooth LE accessories ,Acts as a Bluetoth LE accessory 
@@ -20,6 +22,7 @@ nfc和糖动发射器 读取libre1 血糖数据
 oc import <cgmcareSDK/cgmcareSDK.h>
 Swift  import cgmcareSDK
 1.授权
+
 TDLibreManager.auth(appSecret: appSecret) { [self] error in
             if error == nil {
                 showMsg("授权成功")
@@ -27,7 +30,9 @@ TDLibreManager.auth(appSecret: appSecret) { [self] error in
                 showMsg("授权结果 = " + error!.localizedDescription)
             }
         }
+	
 2.设置回调
+
     /// 糖动蓝牙状态监听
     /// - Parameter stateBlock: <#stateBlock description#>
     open class func addTDBleStateBlock(stateBlock :@escaping TDBLEStateBlock){
@@ -45,7 +50,9 @@ TDLibreManager.auth(appSecret: appSecret) { [self] error in
     open class func addTDLibreErrorBlock(errorBlock :@escaping TDErrorBlock){
         TDManager.shared.addTDLibreErrorBlock = errorBlock
     }
+    
 3.连接读取数据
+
     /// 扫描nfc
     open class func scanTDLibreNFC(){
         TDManager.shared.scanTDLibreNFC()

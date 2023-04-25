@@ -7,13 +7,17 @@
 
 import UIKit
 import CoreBluetooth
-import TDFramework
+import TDSDK
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
-
+    
+    //    let appSecret = "i50QOn2jqr2WwqnVp2CL2lz505Qe052Q"
+    let appSecret = "kg595esfHZN2S2sY9U0ChPPGf94pXCSx"
+    @IBOutlet weak var authState: UILabel!
     @IBOutlet weak var bleState: UILabel!
     @IBOutlet weak var tvview: UITextView!
     @IBOutlet weak var tfView: UITextField!
     @IBOutlet weak var tabview: UITableView!
+    let notificationHandler = NotificationHandler()
     func showMsg(_ items: Any...){
         print(items)
 
@@ -27,27 +31,32 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        authState.text = "\(TDLibreManager.getAuthStatus())"
         tabview.separatorStyle = .none
         tvview.text = ""
         tvview.layoutManager.allowsNonContiguousLayout = false
         showMsg("SDK版本号 = "+"\(TDLibreManager.getVersion())")
         TDLibreManager.addTDBleStateBlock { [self] bleState in
             showMsg("蓝牙状态 "+"\(bleState.rawValue)")
+            var state = "--"
             switch bleState {
             case .disconnected:
-                self.bleState.text = "断开连接"
+                state = "断开连接"
             case .connecting:
-                self.bleState.text = "连接中"
+                state = "连接中"
             case .connected:
-                self.bleState.text = "已连接"
+                state = "已连接"
             case .disconnecting:
-                self.bleState.text = "断开连接中"
+                state = "断开连接中"
             @unknown default:
-                self.bleState.text = "--"
+                break
             }
+            self.bleState.text = state
+            notificationHandler.requestUserNotification(title: "蓝牙状态",body: state)
         };
         TDLibreManager.addTDLibreErrorBlock { [self] error in
             showMsg("error code = "+"\(error.code)"+"localizedDescription = "+"\(error.localizedDescription)"+"\n"+"\(error.error)")
+            notificationHandler.requestUserNotification(title: "SDK异常",body: error.localizedDescription)
         }
         TDLibreManager.addTDLibreUpdataBlock { [self] libreModel in
             let msg = "电压 "+"\(libreModel.voltage)"+"\n传感器类型 "+"\(libreModel.sensorType)"+"\n传感器状态 "+"\(libreModel.sensorState)"+"\n传感器编号 "+"\(libreModel.sensorSerialNumber)"+"\n瞬感激活时间 "+"\(libreModel.sensorStartTime)"+"\n已使用时间 "+"\(libreModel.sensorTime)"+"\n蓝牙名称 "+"\(libreModel.bleName)"+"\n解析血糖条数 "+"\(libreModel.glucoseDataArr.count)"
@@ -57,6 +66,13 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
                 let msg = "time"+"\(gm.time)"+"血糖"+"\(gm.glucose)"
                 showMsg(msg)
             }
+            if libreModel.glucoseDataArr.count > 0 {
+                let m = libreModel.glucoseDataArr.first
+                notificationHandler.requestUserNotification(title: "最新血糖",body: "时间 = " + m!.time!.toTimeStr + " 血糖值 = "+"\(m?.glucose)")
+            }else{
+                notificationHandler.requestUserNotification(title: "最新血糖",body: "没有最新数据")
+            }
+            
         };
     }
 
@@ -85,9 +101,25 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             showMsg("激活成功")
         }
     }
+    @IBAction func auth(_ sender: Any) {
+        TDLibreManager.auth(appSecret: appSecret) { [self] error in
+            if error == nil {
+                showMsg("授权成功")
+            }else{
+                showMsg("授权结果 = " + error!.localizedDescription)
+            }
+            authState.text = "\(TDLibreManager.getAuthStatus())"
+        }
+        
+    }
     @IBAction func getLog(_ sender: Any) {
-        var log = TDLibreManager.getTDLog()
-        print("log = "+"\(log)")
+//        showMsg("解密前")
+//        var log = TDLibreManager.getTDTodayLog()
+//        showMsg(log)
+//        showMsg("解密后")
+//        log = TDLogManager.shared.decryptTDLogInfo(s: log)
+//        showMsg(log)
+//        print(log)
     }
     @IBAction func disconnect(_ sender: Any) {
         TDLibreManager.disconnectTDLibreBLE()

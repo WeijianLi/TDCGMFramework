@@ -1,0 +1,11 @@
+framework module TDSDK {
+  umbrella header "TDSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module TDSDK.Swift {
+  header "TDSDK-Swift.h"
+  requires objc
+}

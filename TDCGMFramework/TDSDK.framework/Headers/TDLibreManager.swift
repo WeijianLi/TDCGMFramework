@@ -9,9 +9,10 @@ import Foundation
 import CoreBluetooth
 
 public typealias  TDErrorBlock = (_ error: TDErrorModel) -> Void
+public typealias  TDErrorNilBlock = (_ error: TDErrorModel?) -> Void
+
 public typealias  TDLibreDataBlock = (_ libreModel: TDLibreDataModel) -> Void
 public typealias  TDBLEStateBlock = (_ bleState: CBPeripheralState) -> Void
-public typealias  TDActivateBlock = (_ error: TDErrorModel?) -> Void
 
 @objcMembers open class TDLibreManager: NSObject {
     
@@ -25,6 +26,20 @@ public typealias  TDActivateBlock = (_ error: TDErrorModel?) -> Void
     /// - Returns: <#description#>
     open class func getPeripheralName()->String{
         return TDManager.shared.peripheralName
+    }
+    
+    /// 授权状态
+    /// - Returns: <#description#>
+    open class func getAuthStatus()->Bool{
+        return TDManager.shared.isAuth
+    }
+    
+    /// 授权
+    /// - Parameters:
+    ///   - appSecrect: appSecrect
+    ///   - errorBlock: error == nil 授权成功
+    open class func auth(appSecret: String,errorBlock:@escaping TDErrorNilBlock){
+        TDManager.shared.auth(appSecret: appSecret, errorBlock: errorBlock)
     }
     
     /// 蓝牙连接状态
@@ -57,7 +72,7 @@ public typealias  TDActivateBlock = (_ error: TDErrorModel?) -> Void
     
     /// nfc 激活瞬感1代
     /// - Parameter success: error == nil 激活成功
-    open class func activateTDLibreWithNFC(success:@escaping TDActivateBlock){
+    open class func activateTDLibreWithNFC(success:@escaping TDErrorNilBlock){
         TDManager.shared.activateTDLibreWithNFC(success: success)
     }
     
@@ -84,10 +99,10 @@ public typealias  TDActivateBlock = (_ error: TDErrorModel?) -> Void
         TDManager.shared.disconnectTDLibreBLE()
     }
     
-    /// 获取糖动日志
-    open class func getTDLog() -> String{
-       return TDManager.shared.getTDLog()
-    }
+//    /// 获取糖动今日日志
+//    open class func getTDTodayLog() -> String{
+//       return TDManager.shared.getTDTodayLog()
+//    }
 }
 @objcMembers open class TDGlucoseDataModel : NSObject {
     //血糖时间

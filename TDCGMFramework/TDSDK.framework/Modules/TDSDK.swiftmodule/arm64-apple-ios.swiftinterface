@@ -1,0 +1,113 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TDSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CoreBluetooth
+import CoreNFC
+import CryptoKit
+import Foundation
+import SpriteKit
+import Swift
+@_exported import TDSDK
+import _Concurrency
+import _StringProcessing
+import os
+@_hasMissingDesignatedInitializers public class GlucoseData {
+  @objc deinit
+}
+extension Swift.Double : Swift.RawRepresentable {
+  public typealias RawValue = Swift.Double
+  public init?(rawValue: Swift.Double.RawValue)
+  public var rawValue: Swift.Double.RawValue {
+    get
+  }
+}
+public struct Libre1DerivedAlgorithmParameters : Swift.Codable, Swift.CustomStringConvertible {
+  public var slope_slope: Swift.Double
+  public var slope_offset: Swift.Double
+  public var offset_slope: Swift.Double
+  public var offset_offset: Swift.Double
+  public var isValidForFooterWithReverseCRCs: Swift.Int
+  public var extraSlope: Swift.Double
+  public var extraOffset: Swift.Double
+  public var serialNumber: Swift.String
+  public var description: Swift.String {
+    get
+  }
+  public init(slope_slope: Swift.Double, slope_offset: Swift.Double, offset_slope: Swift.Double, offset_offset: Swift.Double, isValidForFooterWithReverseCRCs: Swift.Int, extraSlope: Swift.Double, extraOffset: Swift.Double, sensorSerialNumber: Swift.String)
+  public init(bytes: Foundation.Data, serialNumber: Swift.String)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct LibreCalibrationInfo : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public enum LibreSensorState {
+  case notYetStarted
+  case starting
+  case ready
+  case expired
+  case shutdown
+  case failure
+  case unknown
+  public static func == (a: TDSDK.LibreSensorState, b: TDSDK.LibreSensorState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension Foundation.Data {
+  public func hexEncodedString() -> Swift.String
+}
+public var AES_KEY: Swift.String
+public var SETTING_KEY: Swift.String
+public typealias TDErrorBlock = (_ error: TDSDK.TDErrorModel) -> Swift.Void
+public typealias TDErrorNilBlock = (_ error: TDSDK.TDErrorModel?) -> Swift.Void
+public typealias TDLibreDataBlock = (_ libreModel: TDSDK.TDLibreDataModel) -> Swift.Void
+public typealias TDBLEStateBlock = (_ bleState: CoreBluetooth.CBPeripheralState) -> Swift.Void
+@objc @_inheritsConvenienceInitializers @objcMembers open class TDLibreManager : ObjectiveC.NSObject {
+  @objc open class func getVersion() -> Swift.String
+  @objc open class func getPeripheralName() -> Swift.String
+  @objc open class func getAuthStatus() -> Swift.Bool
+  @objc open class func auth(appSecret: Swift.String, errorBlock: @escaping TDSDK.TDErrorNilBlock)
+  @objc open class func getBleState() -> CoreBluetooth.CBPeripheralState
+  @objc open class func addTDBleStateBlock(stateBlock: @escaping TDSDK.TDBLEStateBlock)
+  @objc open class func addTDLibreUpdataBlock(dataBlock: @escaping TDSDK.TDLibreDataBlock)
+  @objc open class func addTDLibreErrorBlock(errorBlock: @escaping TDSDK.TDErrorBlock)
+  @objc open class func scanTDLibreNFC()
+  @objc open class func activateTDLibreWithNFC(success: @escaping TDSDK.TDErrorNilBlock)
+  @objc open class func scanTDLibreBLEList(success: @escaping (Swift.Array<CoreBluetooth.CBPeripheral>) -> Swift.Void)
+  @objc open class func connectTDLibreBLE(peripheralName: Swift.String)
+  @objc open class func connectTDLibreBLE(peripheral: CoreBluetooth.CBPeripheral)
+  @objc open class func disconnectTDLibreBLE()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers open class TDGlucoseDataModel : ObjectiveC.NSObject {
+  @objc open var time: Foundation.Date?
+  @objc open var glucose: Swift.Double
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers @objcMembers open class TDErrorModel : ObjectiveC.NSObject {
+  @objc open var code: TDSDK.TDErrorType
+  @objc open var localizedDescription: Swift.String
+  @objc open var error: Any?
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @objcMembers open class TDLibreDataModel : ObjectiveC.NSObject {
+  @objc open var voltage: Swift.String
+  @objc open var bleName: Swift.String
+  @objc open var glucoseDataArr: [TDSDK.TDGlucoseDataModel]
+  @objc open var sensorType: TDSDK.TDLibreSensorType
+  @objc open var sensorState: TDSDK.TDLibreSensorState
+  @objc open var sensorSerialNumber: Swift.String
+  @objc open var sensorStartTime: Swift.String
+  @objc open var sensorTime: Swift.Int
+  @objc override dynamic public init()
+  @objc deinit
+}
+public func addTDLog(_ items: Any...)
+extension TDSDK.LibreSensorState : Swift.Equatable {}
+extension TDSDK.LibreSensorState : Swift.Hashable {}

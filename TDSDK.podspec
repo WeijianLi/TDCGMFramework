@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint TDCGMFramework.podspec' to ensure this is a
+#  Be sure to run `pod spec lint TDSDK.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "TDCGMFramework"
-  spec.version      = "1.0.0"
+  spec.name         = "TDSDK"
+  spec.version      = "2.0.8"
   spec.summary      = "糖动SDK"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-    使用nfc或糖动发射器读取libre1血糖数据
+        使用nfc或糖动发射器读取libre1血糖数据
                    DESC
 
   spec.homepage     = "https://github.com/WeijianLi/TDCGMFramework.git"
@@ -64,8 +64,8 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-   spec.platform     = :ios
-   spec.platform     = :ios, "14.0"
+  spec.platform     = :ios
+  spec.platform     = :ios, "14.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -90,11 +90,13 @@ Pod::Spec.new do |spec|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
- spec.source_files  = 'TDCGMFramework/TDFramework.framework/Headers/*.{h}'
- spec.vendored_frameworks = 'TDCGMFramework/TDFramework.framework'
- spec.swift_versions = "5.0"
- #spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 x86_64' }
-  #spec.exclude_files = "Classes/Exclude"
+
+  spec.source_files  = 'TDCGMFramework/TDFramework.framework/Headers/*.{h}'
+  spec.vendored_frameworks = 'TDCGMFramework/TDFramework.framework'
+  spec.swift_versions = "5.0"
+
+  # spec.public_header_files = "Classes/**/*.h"
+
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -116,6 +118,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
+  # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"

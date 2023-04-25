@@ -1,19 +1,21 @@
 //
-//  TDFramework.h
-//  TDFramework
+//  TDSDK.h
+//  TDSDK
 //
-//  Created by 李伟健 on 2023/4/14.
+//  Created by 李伟健 on 2023/4/25.
 //
 
 #import <Foundation/Foundation.h>
 
-//! Project version number for TDFramework.
-FOUNDATION_EXPORT double TDFrameworkVersionNumber;
+//! Project version number for TDSDK.
+FOUNDATION_EXPORT double TDSDKVersionNumber;
 
-//! Project version string for TDFramework.
-FOUNDATION_EXPORT const unsigned char TDFrameworkVersionString[];
+//! Project version string for TDSDK.
+FOUNDATION_EXPORT const unsigned char TDSDKVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <TDFramework/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <TDSDK/PublicHeader.h>
+
+
 #import <CommonCrypto/CommonCryptor.h>
 
 //瞬感传感器类型
@@ -42,4 +44,5 @@ typedef NS_ENUM(int, TDErrorType) {
     ErrorType_LibreCrcError               = 4,//传感器数据校验不通过
     ErrorType_LibreError                  = 5,//糖动获取数据异常
     ErrorType_BLEUnauthorized             = 6,//没有蓝牙权限
+    ErrorType_Unauthorized                = 7,//sdk未授权
 };

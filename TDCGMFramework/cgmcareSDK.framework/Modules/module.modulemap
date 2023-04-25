@@ -1,0 +1,11 @@
+framework module cgmcareSDK {
+  umbrella header "cgmcareSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module cgmcareSDK.Swift {
+  header "cgmcareSDK-Swift.h"
+  requires objc
+}

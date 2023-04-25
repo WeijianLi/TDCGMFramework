@@ -4,161 +4,146 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/TDLibreManager.swift</key>
+		<key>Headers/cgmcareSDK-Swift.h</key>
 		<data>
-		uk9j/UoeXMfI4QEP/BPQ0+vt0a0=
+		0GDxcAk5roPFnr90pEptK2F5RPQ=
 		</data>
-		<key>Headers/TDsdk-Swift.h</key>
+		<key>Headers/cgmcareSDK.h</key>
 		<data>
-		EzR68BdJmYbWqE7361dWOqme5Lg=
-		</data>
-		<key>Headers/TDsdk.h</key>
-		<data>
-		LcEjoWCuiCPZlZ0JFNgut+ux8bA=
+		dCGJ1OOCbX6shP8U79y1IgDcoEw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WG9FGgYFWcgU2s+1bYIpQS30rWs=
+		gCedpLcMLmEFgbugWgf4qaJhVQc=
 		</data>
-		<key>Modules/TDsdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Modules/cgmcareSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		CJHtIjsbpVTpCLp3AVGHPwayhCo=
+		Fzarg4S1tBbcgnzBjtE/YuQLuQQ=
 		</data>
-		<key>Modules/TDsdk.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		wdCQm1Qggm+GXwVjKp0TSbTZ9fk=
+		0XfDXbzWsGrOyP3Mw/mW+a2lAdk=
 		</data>
-		<key>Modules/TDsdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		TbnRDLfrHGlBvvqwc2Rka0FblZs=
+		i4rn9FAbNI/87UQ9GkwGqJuvvHQ=
 		</data>
-		<key>Modules/TDsdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		UhNvXyPonlJN6Q3PbCYtKu+mhfs=
+		T6j/cnahHFDhZV6qMR2K1Tto3OA=
 		</data>
-		<key>Modules/TDsdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		TbnRDLfrHGlBvvqwc2Rka0FblZs=
+		i4rn9FAbNI/87UQ9GkwGqJuvvHQ=
 		</data>
-		<key>Modules/TDsdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		p3wesxcx19Ntaoh2wj7oJmHXflg=
+		hfswKwNOroGDN3kHIViE7rtgFbg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		YC0IuaI2+lmKagoLcKJHFbErPcg=
+		qjtFlRC4MN9vhbZLBS6kP4+no08=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/TDLibreManager.swift</key>
+		<key>Headers/cgmcareSDK-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uk9j/UoeXMfI4QEP/BPQ0+vt0a0=
+			0GDxcAk5roPFnr90pEptK2F5RPQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			I4A/WEOYVlsKWqdCEPVaRJ4nD5JRcq+sBrdkcqge+IE=
+			p+1vlLzKJ4pv5ob9kLLDJAL6Dz0gTQSeHAYTn5EEQCE=
 			</data>
 		</dict>
-		<key>Headers/TDsdk-Swift.h</key>
+		<key>Headers/cgmcareSDK.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EzR68BdJmYbWqE7361dWOqme5Lg=
+			dCGJ1OOCbX6shP8U79y1IgDcoEw=
 			</data>
 			<key>hash2</key>
 			<data>
-			WcGN8xdij+1kS/jeHexZf+LuOij4XOdK7QXxacehcKM=
+			41C2xEwKGiMkZO5sdWIMWKrBdMG6NNHGZFu/gJZ7ZSw=
 			</data>
 		</dict>
-		<key>Headers/TDsdk.h</key>
+		<key>Modules/cgmcareSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LcEjoWCuiCPZlZ0JFNgut+ux8bA=
+			Fzarg4S1tBbcgnzBjtE/YuQLuQQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			n5qrbT4zKneb+TXiZ3k+SH/oljsuyIsOElARwZczp6s=
+			RAk9FqfY+YA6kPqvj1D9z6/ujPQ8JAs4Sd5+3kKlLww=
 			</data>
 		</dict>
-		<key>Modules/TDsdk.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CJHtIjsbpVTpCLp3AVGHPwayhCo=
+			0XfDXbzWsGrOyP3Mw/mW+a2lAdk=
 			</data>
 			<key>hash2</key>
 			<data>
-			6YzQZqCCxQnnDl8IKEG7PrdrMKuz7on9V2P4xizG5M4=
+			hSGyVg0Lf3FV+yIGS8Zp/TB8oFXlgzUHiQ9wocFzDOU=
 			</data>
 		</dict>
-		<key>Modules/TDsdk.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wdCQm1Qggm+GXwVjKp0TSbTZ9fk=
+			i4rn9FAbNI/87UQ9GkwGqJuvvHQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			9Oowkxb355LjDBrp/mXyk6R4onXdrqiTK/HYGeDYHlg=
+			l+WM1M/RuRoVRu+Soj891Bm/Y4w78OXXKbXs5+3I4+g=
 			</data>
 		</dict>
-		<key>Modules/TDsdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TbnRDLfrHGlBvvqwc2Rka0FblZs=
+			T6j/cnahHFDhZV6qMR2K1Tto3OA=
 			</data>
 			<key>hash2</key>
 			<data>
-			4IjM9kPPy4Nyk2JYGLwFhdjNp33N5qrNFgDBGvKo040=
+			bkHyKTk8BtUEg6OflLGSdbHfO6QYPGuae+jFPT5XfjI=
 			</data>
 		</dict>
-		<key>Modules/TDsdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UhNvXyPonlJN6Q3PbCYtKu+mhfs=
+			i4rn9FAbNI/87UQ9GkwGqJuvvHQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			IINQ4kCpfkzpUWdb+SMKvVRXJnnk+O54p6HC/4JA8rc=
+			l+WM1M/RuRoVRu+Soj891Bm/Y4w78OXXKbXs5+3I4+g=
 			</data>
 		</dict>
-		<key>Modules/TDsdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TbnRDLfrHGlBvvqwc2Rka0FblZs=
+			hfswKwNOroGDN3kHIViE7rtgFbg=
 			</data>
 			<key>hash2</key>
 			<data>
-			4IjM9kPPy4Nyk2JYGLwFhdjNp33N5qrNFgDBGvKo040=
-			</data>
-		</dict>
-		<key>Modules/TDsdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			p3wesxcx19Ntaoh2wj7oJmHXflg=
-			</data>
-			<key>hash2</key>
-			<data>
-			IyJp1K5LFodZqhJY39AARtV7yOy7sdsVDZVDweiibCY=
+			mLVhlFlogTk8EtnEMIXZGWGL3gaizKn4rORoMh9utlY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YC0IuaI2+lmKagoLcKJHFbErPcg=
+			qjtFlRC4MN9vhbZLBS6kP4+no08=
 			</data>
 			<key>hash2</key>
 			<data>
-			nBO19ioCTs2MHQXXI9cdMcRamQCC1TVRPV9avtUpUQ4=
+			PKEpv5EJF2K7Q4/MGrpr05PUXkVt7mqXvCfwZVcc0I8=
 			</data>
 		</dict>
 	</dict>

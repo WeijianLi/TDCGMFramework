@@ -9,7 +9,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk",
+        "moduleName": "cgmcareSDK",
         "declAttributes": [
           "RawDocComment"
         ]
@@ -19,7 +19,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk",
+        "moduleName": "cgmcareSDK",
         "declAttributes": [
           "RawDocComment"
         ]
@@ -29,7 +29,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk",
+        "moduleName": "cgmcareSDK",
         "declAttributes": [
           "RawDocComment"
         ]
@@ -39,7 +39,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk",
+        "moduleName": "cgmcareSDK",
         "declAttributes": [
           "RawDocComment"
         ]
@@ -49,7 +49,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk",
+        "moduleName": "cgmcareSDK",
         "declAttributes": [
           "RawDocComment"
         ]
@@ -59,7 +59,7 @@
         "name": "CoreBluetooth",
         "printedName": "CoreBluetooth",
         "declKind": "Import",
-        "moduleName": "TDsdk"
+        "moduleName": "cgmcareSDK"
       },
       {
         "kind": "Var",
@@ -74,9 +74,9 @@
           }
         ],
         "declKind": "Var",
-        "usr": "s:5TDsdk7AES_KEYSSvp",
-        "mangledName": "$s5TDsdk7AES_KEYSSvp",
-        "moduleName": "TDsdk",
+        "usr": "s:10cgmcareSDK7AES_KEYSSvp",
+        "mangledName": "$s10cgmcareSDK7AES_KEYSSvp",
+        "moduleName": "cgmcareSDK",
         "declAttributes": [
           "HasInitialValue",
           "HasStorage",
@@ -98,9 +98,9 @@
               }
             ],
             "declKind": "Accessor",
-            "usr": "s:5TDsdk7AES_KEYSSvg",
-            "mangledName": "$s5TDsdk7AES_KEYSSvg",
-            "moduleName": "TDsdk",
+            "usr": "s:10cgmcareSDK7AES_KEYSSvg",
+            "mangledName": "$s10cgmcareSDK7AES_KEYSSvg",
+            "moduleName": "cgmcareSDK",
             "implicit": true,
             "accessorKind": "get"
           },
@@ -122,9 +122,9 @@
               }
             ],
             "declKind": "Accessor",
-            "usr": "s:5TDsdk7AES_KEYSSvs",
-            "mangledName": "$s5TDsdk7AES_KEYSSvs",
-            "moduleName": "TDsdk",
+            "usr": "s:10cgmcareSDK7AES_KEYSSvs",
+            "mangledName": "$s10cgmcareSDK7AES_KEYSSvs",
+            "moduleName": "cgmcareSDK",
             "implicit": true,
             "accessorKind": "set"
           },
@@ -140,9 +140,9 @@
               }
             ],
             "declKind": "Accessor",
-            "usr": "s:5TDsdk7AES_KEYSSvM",
-            "mangledName": "$s5TDsdk7AES_KEYSSvM",
-            "moduleName": "TDsdk",
+            "usr": "s:10cgmcareSDK7AES_KEYSSvM",
+            "mangledName": "$s10cgmcareSDK7AES_KEYSSvM",
+            "moduleName": "cgmcareSDK",
             "implicit": true,
             "accessorKind": "_modify"
           }
@@ -161,9 +161,9 @@
           }
         ],
         "declKind": "Var",
-        "usr": "s:5TDsdk11SETTING_KEYSSvp",
-        "mangledName": "$s5TDsdk11SETTING_KEYSSvp",
-        "moduleName": "TDsdk",
+        "usr": "s:10cgmcareSDK11SETTING_KEYSSvp",
+        "mangledName": "$s10cgmcareSDK11SETTING_KEYSSvp",
+        "moduleName": "cgmcareSDK",
         "declAttributes": [
           "HasInitialValue",
           "HasStorage",
@@ -185,9 +185,9 @@
               }
             ],
             "declKind": "Accessor",
-            "usr": "s:5TDsdk11SETTING_KEYSSvg",
-            "mangledName": "$s5TDsdk11SETTING_KEYSSvg",
-            "moduleName": "TDsdk",
+            "usr": "s:10cgmcareSDK11SETTING_KEYSSvg",
+            "mangledName": "$s10cgmcareSDK11SETTING_KEYSSvg",
+            "moduleName": "cgmcareSDK",
             "implicit": true,
             "accessorKind": "get"
           },
@@ -209,9 +209,9 @@
               }
             ],
             "declKind": "Accessor",
-            "usr": "s:5TDsdk11SETTING_KEYSSvs",
-            "mangledName": "$s5TDsdk11SETTING_KEYSSvs",
-            "moduleName": "TDsdk",
+            "usr": "s:10cgmcareSDK11SETTING_KEYSSvs",
+            "mangledName": "$s10cgmcareSDK11SETTING_KEYSSvs",
+            "moduleName": "cgmcareSDK",
             "implicit": true,
             "accessorKind": "set"
           },
@@ -227,9 +227,9 @@
               }
             ],
             "declKind": "Accessor",
-            "usr": "s:5TDsdk11SETTING_KEYSSvM",
-            "mangledName": "$s5TDsdk11SETTING_KEYSSvM",
-            "moduleName": "TDsdk",
+            "usr": "s:10cgmcareSDK11SETTING_KEYSSvM",
+            "mangledName": "$s10cgmcareSDK11SETTING_KEYSSvM",
+            "moduleName": "cgmcareSDK",
             "implicit": true,
             "accessorKind": "_modify"
           }
@@ -240,7 +240,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk",
+        "moduleName": "cgmcareSDK",
         "declAttributes": [
           "RawDocComment"
         ]
@@ -250,28 +250,28 @@
         "name": "CoreNFC",
         "printedName": "CoreNFC",
         "declKind": "Import",
-        "moduleName": "TDsdk"
+        "moduleName": "cgmcareSDK"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk"
+        "moduleName": "cgmcareSDK"
       },
       {
         "kind": "Import",
         "name": "CoreBluetooth",
         "printedName": "CoreBluetooth",
         "declKind": "Import",
-        "moduleName": "TDsdk"
+        "moduleName": "cgmcareSDK"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk",
+        "moduleName": "cgmcareSDK",
         "declAttributes": [
           "RawDocComment"
         ]
@@ -281,7 +281,7 @@
         "name": "CoreBluetooth",
         "printedName": "CoreBluetooth",
         "declKind": "Import",
-        "moduleName": "TDsdk"
+        "moduleName": "cgmcareSDK"
       },
       {
         "kind": "TypeDecl",
@@ -301,9 +301,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@TDsdk@objc(cs)TDLibreManager(cm)getVersion",
-            "mangledName": "$s5TDsdk14TDLibreManagerC10getVersionSSyFZ",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreManager(cm)getVersion",
+            "mangledName": "$s10cgmcareSDK14TDLibreManagerC10getVersionSSyFZ",
+            "moduleName": "cgmcareSDK",
             "static": true,
             "isOpen": true,
             "declAttributes": [
@@ -326,9 +326,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@TDsdk@objc(cs)TDLibreManager(cm)getPeripheralName",
-            "mangledName": "$s5TDsdk14TDLibreManagerC17getPeripheralNameSSyFZ",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreManager(cm)getPeripheralName",
+            "mangledName": "$s10cgmcareSDK14TDLibreManagerC17getPeripheralNameSSyFZ",
+            "moduleName": "cgmcareSDK",
             "static": true,
             "isOpen": true,
             "declAttributes": [
@@ -351,9 +351,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@TDsdk@objc(cs)TDLibreManager(cm)getAuthStatus",
-            "mangledName": "$s5TDsdk14TDLibreManagerC13getAuthStatusSbyFZ",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreManager(cm)getAuthStatus",
+            "mangledName": "$s10cgmcareSDK14TDLibreManagerC13getAuthStatusSbyFZ",
+            "moduleName": "cgmcareSDK",
             "static": true,
             "isOpen": true,
             "declAttributes": [
@@ -382,7 +382,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(TDsdk.TDErrorModel?) -> ()",
+                "printedName": "(cgmcareSDK.TDErrorModel?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -392,13 +392,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "TDsdk.TDErrorModel?",
+                    "printedName": "cgmcareSDK.TDErrorModel?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "TDErrorModel",
-                        "printedName": "TDsdk.TDErrorModel",
-                        "usr": "c:@M@TDsdk@objc(cs)TDErrorModel"
+                        "printedName": "cgmcareSDK.TDErrorModel",
+                        "usr": "c:@M@cgmcareSDK@objc(cs)TDErrorModel"
                       }
                     ],
                     "usr": "s:Sq"
@@ -407,9 +407,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@TDsdk@objc(cs)TDLibreManager(cm)authWithAppSecret:errorBlock:",
-            "mangledName": "$s5TDsdk14TDLibreManagerC4auth9appSecret10errorBlockySS_yAA12TDErrorModelCSgctFZ",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreManager(cm)authWithAppSecret:errorBlock:",
+            "mangledName": "$s10cgmcareSDK14TDLibreManagerC4auth9appSecret10errorBlockySS_yAA12TDErrorModelCSgctFZ",
+            "moduleName": "cgmcareSDK",
             "static": true,
             "isOpen": true,
             "declAttributes": [
@@ -432,9 +432,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@TDsdk@objc(cs)TDLibreManager(cm)getBleState",
-            "mangledName": "$s5TDsdk14TDLibreManagerC11getBleStateSo012CBPeripheralF0VyFZ",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreManager(cm)getBleState",
+            "mangledName": "$s10cgmcareSDK14TDLibreManagerC11getBleStateSo012CBPeripheralG0VyFZ",
+            "moduleName": "cgmcareSDK",
             "static": true,
             "isOpen": true,
             "declAttributes": [
@@ -474,9 +474,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@TDsdk@objc(cs)TDLibreManager(cm)addTDBleStateBlockWithStateBlock:",
-            "mangledName": "$s5TDsdk14TDLibreManagerC18addTDBleStateBlock05stateG0yySo012CBPeripheralF0Vc_tFZ",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreManager(cm)addTDBleStateBlockWithStateBlock:",
+            "mangledName": "$s10cgmcareSDK14TDLibreManagerC18addTDBleStateBlock05stateH0yySo012CBPeripheralG0Vc_tFZ",
+            "moduleName": "cgmcareSDK",
             "static": true,
             "isOpen": true,
             "declAttributes": [
@@ -499,7 +499,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(TDsdk.TDLibreDataModel) -> ()",
+                "printedName": "(cgmcareSDK.TDLibreDataModel) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -509,16 +509,16 @@
                   {
                     "kind": "TypeNominal",
                     "name": "TDLibreDataModel",
-                    "printedName": "TDsdk.TDLibreDataModel",
-                    "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel"
+                    "printedName": "cgmcareSDK.TDLibreDataModel",
+                    "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel"
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@TDsdk@objc(cs)TDLibreManager(cm)addTDLibreUpdataBlockWithDataBlock:",
-            "mangledName": "$s5TDsdk14TDLibreManagerC03addB11UpdataBlock04dataF0yyAA0B9DataModelCc_tFZ",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreManager(cm)addTDLibreUpdataBlockWithDataBlock:",
+            "mangledName": "$s10cgmcareSDK14TDLibreManagerC03addC11UpdataBlock04dataG0yyAA0C9DataModelCc_tFZ",
+            "moduleName": "cgmcareSDK",
             "static": true,
             "isOpen": true,
             "declAttributes": [
@@ -541,7 +541,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(TDsdk.TDErrorModel) -> ()",
+                "printedName": "(cgmcareSDK.TDErrorModel) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -551,16 +551,16 @@
                   {
                     "kind": "TypeNominal",
                     "name": "TDErrorModel",
-                    "printedName": "TDsdk.TDErrorModel",
-                    "usr": "c:@M@TDsdk@objc(cs)TDErrorModel"
+                    "printedName": "cgmcareSDK.TDErrorModel",
+                    "usr": "c:@M@cgmcareSDK@objc(cs)TDErrorModel"
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@TDsdk@objc(cs)TDLibreManager(cm)addTDLibreErrorBlockWithErrorBlock:",
-            "mangledName": "$s5TDsdk14TDLibreManagerC03addB10ErrorBlock05errorF0yyAA12TDErrorModelCc_tFZ",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreManager(cm)addTDLibreErrorBlockWithErrorBlock:",
+            "mangledName": "$s10cgmcareSDK14TDLibreManagerC03addC10ErrorBlock05errorG0yyAA12TDErrorModelCc_tFZ",
+            "moduleName": "cgmcareSDK",
             "static": true,
             "isOpen": true,
             "declAttributes": [
@@ -582,9 +582,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@TDsdk@objc(cs)TDLibreManager(cm)scanTDLibreNFC",
-            "mangledName": "$s5TDsdk14TDLibreManagerC04scanB3NFCyyFZ",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreManager(cm)scanTDLibreNFC",
+            "mangledName": "$s10cgmcareSDK14TDLibreManagerC04scanC3NFCyyFZ",
+            "moduleName": "cgmcareSDK",
             "static": true,
             "isOpen": true,
             "declAttributes": [
@@ -607,7 +607,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(TDsdk.TDErrorModel?) -> ()",
+                "printedName": "(cgmcareSDK.TDErrorModel?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -617,13 +617,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "TDsdk.TDErrorModel?",
+                    "printedName": "cgmcareSDK.TDErrorModel?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "TDErrorModel",
-                        "printedName": "TDsdk.TDErrorModel",
-                        "usr": "c:@M@TDsdk@objc(cs)TDErrorModel"
+                        "printedName": "cgmcareSDK.TDErrorModel",
+                        "usr": "c:@M@cgmcareSDK@objc(cs)TDErrorModel"
                       }
                     ],
                     "usr": "s:Sq"
@@ -632,9 +632,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@TDsdk@objc(cs)TDLibreManager(cm)activateTDLibreWithNFCWithSuccess:",
-            "mangledName": "$s5TDsdk14TDLibreManagerC08activateB7WithNFC7successyyAA12TDErrorModelCSgc_tFZ",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreManager(cm)activateTDLibreWithNFCWithSuccess:",
+            "mangledName": "$s10cgmcareSDK14TDLibreManagerC08activateC7WithNFC7successyyAA12TDErrorModelCSgc_tFZ",
+            "moduleName": "cgmcareSDK",
             "static": true,
             "isOpen": true,
             "declAttributes": [
@@ -682,9 +682,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@TDsdk@objc(cs)TDLibreManager(cm)scanTDLibreBLEListWithSuccess:",
-            "mangledName": "$s5TDsdk14TDLibreManagerC04scanB7BLEList7successyySaySo12CBPeripheralCGc_tFZ",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreManager(cm)scanTDLibreBLEListWithSuccess:",
+            "mangledName": "$s10cgmcareSDK14TDLibreManagerC04scanC7BLEList7successyySaySo12CBPeripheralCGc_tFZ",
+            "moduleName": "cgmcareSDK",
             "static": true,
             "isOpen": true,
             "declAttributes": [
@@ -712,9 +712,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@TDsdk@objc(cs)TDLibreManager(cm)connectTDLibreBLEWithPeripheralName:",
-            "mangledName": "$s5TDsdk14TDLibreManagerC07connectB3BLE14peripheralNameySS_tFZ",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreManager(cm)connectTDLibreBLEWithPeripheralName:",
+            "mangledName": "$s10cgmcareSDK14TDLibreManagerC07connectC3BLE14peripheralNameySS_tFZ",
+            "moduleName": "cgmcareSDK",
             "static": true,
             "isOpen": true,
             "declAttributes": [
@@ -742,9 +742,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@TDsdk@objc(cs)TDLibreManager(cm)connectTDLibreBLEWithPeripheral:",
-            "mangledName": "$s5TDsdk14TDLibreManagerC07connectB3BLE10peripheralySo12CBPeripheralC_tFZ",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreManager(cm)connectTDLibreBLEWithPeripheral:",
+            "mangledName": "$s10cgmcareSDK14TDLibreManagerC07connectC3BLE10peripheralySo12CBPeripheralC_tFZ",
+            "moduleName": "cgmcareSDK",
             "static": true,
             "isOpen": true,
             "declAttributes": [
@@ -766,9 +766,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@TDsdk@objc(cs)TDLibreManager(cm)disconnectTDLibreBLE",
-            "mangledName": "$s5TDsdk14TDLibreManagerC010disconnectB3BLEyyFZ",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreManager(cm)disconnectTDLibreBLE",
+            "mangledName": "$s10cgmcareSDK14TDLibreManagerC010disconnectC3BLEyyFZ",
+            "moduleName": "cgmcareSDK",
             "static": true,
             "isOpen": true,
             "declAttributes": [
@@ -786,14 +786,14 @@
               {
                 "kind": "TypeNominal",
                 "name": "TDLibreManager",
-                "printedName": "TDsdk.TDLibreManager",
-                "usr": "c:@M@TDsdk@objc(cs)TDLibreManager"
+                "printedName": "cgmcareSDK.TDLibreManager",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreManager"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@TDsdk@objc(cs)TDLibreManager(im)init",
-            "mangledName": "$s5TDsdk14TDLibreManagerCACycfc",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreManager(im)init",
+            "mangledName": "$s10cgmcareSDK14TDLibreManagerCACycfc",
+            "moduleName": "cgmcareSDK",
             "overriding": true,
             "implicit": true,
             "objc_name": "init",
@@ -806,9 +806,9 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@TDsdk@objc(cs)TDLibreManager",
-        "mangledName": "$s5TDsdk14TDLibreManagerC",
-        "moduleName": "TDsdk",
+        "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreManager",
+        "mangledName": "$s10cgmcareSDK14TDLibreManagerC",
+        "moduleName": "cgmcareSDK",
         "isOpen": true,
         "declAttributes": [
           "AccessControl",
@@ -898,9 +898,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TDsdk@objc(cs)TDGlucoseDataModel(py)time",
-            "mangledName": "$s5TDsdk18TDGlucoseDataModelC4time10Foundation4DateVSgvp",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDGlucoseDataModel(py)time",
+            "mangledName": "$s10cgmcareSDK18TDGlucoseDataModelC4time10Foundation4DateVSgvp",
+            "moduleName": "cgmcareSDK",
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
@@ -932,9 +932,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDGlucoseDataModel(im)time",
-                "mangledName": "$s5TDsdk18TDGlucoseDataModelC4time10Foundation4DateVSgvg",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDGlucoseDataModel(im)time",
+                "mangledName": "$s10cgmcareSDK18TDGlucoseDataModelC4time10Foundation4DateVSgvg",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -968,9 +968,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDGlucoseDataModel(im)setTime:",
-                "mangledName": "$s5TDsdk18TDGlucoseDataModelC4time10Foundation4DateVSgvs",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDGlucoseDataModel(im)setTime:",
+                "mangledName": "$s10cgmcareSDK18TDGlucoseDataModelC4time10Foundation4DateVSgvs",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -990,9 +990,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk18TDGlucoseDataModelC4time10Foundation4DateVSgvM",
-                "mangledName": "$s5TDsdk18TDGlucoseDataModelC4time10Foundation4DateVSgvM",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK18TDGlucoseDataModelC4time10Foundation4DateVSgvM",
+                "mangledName": "$s10cgmcareSDK18TDGlucoseDataModelC4time10Foundation4DateVSgvM",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "accessorKind": "_modify"
@@ -1012,9 +1012,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TDsdk@objc(cs)TDGlucoseDataModel(py)glucose",
-            "mangledName": "$s5TDsdk18TDGlucoseDataModelC7glucoseSdvp",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDGlucoseDataModel(py)glucose",
+            "mangledName": "$s10cgmcareSDK18TDGlucoseDataModelC7glucoseSdvp",
+            "moduleName": "cgmcareSDK",
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
@@ -1038,9 +1038,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDGlucoseDataModel(im)glucose",
-                "mangledName": "$s5TDsdk18TDGlucoseDataModelC7glucoseSdvg",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDGlucoseDataModel(im)glucose",
+                "mangledName": "$s10cgmcareSDK18TDGlucoseDataModelC7glucoseSdvg",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -1066,9 +1066,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDGlucoseDataModel(im)setGlucose:",
-                "mangledName": "$s5TDsdk18TDGlucoseDataModelC7glucoseSdvs",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDGlucoseDataModel(im)setGlucose:",
+                "mangledName": "$s10cgmcareSDK18TDGlucoseDataModelC7glucoseSdvs",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -1088,9 +1088,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk18TDGlucoseDataModelC7glucoseSdvM",
-                "mangledName": "$s5TDsdk18TDGlucoseDataModelC7glucoseSdvM",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK18TDGlucoseDataModelC7glucoseSdvM",
+                "mangledName": "$s10cgmcareSDK18TDGlucoseDataModelC7glucoseSdvM",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "accessorKind": "_modify"
@@ -1105,14 +1105,14 @@
               {
                 "kind": "TypeNominal",
                 "name": "TDGlucoseDataModel",
-                "printedName": "TDsdk.TDGlucoseDataModel",
-                "usr": "c:@M@TDsdk@objc(cs)TDGlucoseDataModel"
+                "printedName": "cgmcareSDK.TDGlucoseDataModel",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDGlucoseDataModel"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@TDsdk@objc(cs)TDGlucoseDataModel(im)init",
-            "mangledName": "$s5TDsdk18TDGlucoseDataModelCACycfc",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDGlucoseDataModel(im)init",
+            "mangledName": "$s10cgmcareSDK18TDGlucoseDataModelCACycfc",
+            "moduleName": "cgmcareSDK",
             "overriding": true,
             "implicit": true,
             "objc_name": "init",
@@ -1125,9 +1125,9 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@TDsdk@objc(cs)TDGlucoseDataModel",
-        "mangledName": "$s5TDsdk18TDGlucoseDataModelC",
-        "moduleName": "TDsdk",
+        "usr": "c:@M@cgmcareSDK@objc(cs)TDGlucoseDataModel",
+        "mangledName": "$s10cgmcareSDK18TDGlucoseDataModelC",
+        "moduleName": "cgmcareSDK",
         "isOpen": true,
         "declAttributes": [
           "AccessControl",
@@ -1204,14 +1204,14 @@
               {
                 "kind": "TypeNominal",
                 "name": "TDErrorType",
-                "printedName": "TDsdk.TDErrorType",
+                "printedName": "cgmcareSDK.TDErrorType",
                 "usr": "c:@E@TDErrorType"
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TDsdk@objc(cs)TDErrorModel(py)code",
-            "mangledName": "$s5TDsdk12TDErrorModelC4codeSo0B4TypeVvp",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDErrorModel(py)code",
+            "mangledName": "$s10cgmcareSDK12TDErrorModelC4codeSo0C4TypeVvp",
+            "moduleName": "cgmcareSDK",
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
@@ -1230,14 +1230,14 @@
                   {
                     "kind": "TypeNominal",
                     "name": "TDErrorType",
-                    "printedName": "TDsdk.TDErrorType",
+                    "printedName": "cgmcareSDK.TDErrorType",
                     "usr": "c:@E@TDErrorType"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDErrorModel(im)code",
-                "mangledName": "$s5TDsdk12TDErrorModelC4codeSo0B4TypeVvg",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDErrorModel(im)code",
+                "mangledName": "$s10cgmcareSDK12TDErrorModelC4codeSo0C4TypeVvg",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -1258,14 +1258,14 @@
                   {
                     "kind": "TypeNominal",
                     "name": "TDErrorType",
-                    "printedName": "TDsdk.TDErrorType",
+                    "printedName": "cgmcareSDK.TDErrorType",
                     "usr": "c:@E@TDErrorType"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDErrorModel(im)setCode:",
-                "mangledName": "$s5TDsdk12TDErrorModelC4codeSo0B4TypeVvs",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDErrorModel(im)setCode:",
+                "mangledName": "$s10cgmcareSDK12TDErrorModelC4codeSo0C4TypeVvs",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -1285,9 +1285,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk12TDErrorModelC4codeSo0B4TypeVvM",
-                "mangledName": "$s5TDsdk12TDErrorModelC4codeSo0B4TypeVvM",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK12TDErrorModelC4codeSo0C4TypeVvM",
+                "mangledName": "$s10cgmcareSDK12TDErrorModelC4codeSo0C4TypeVvM",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "accessorKind": "_modify"
@@ -1307,9 +1307,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TDsdk@objc(cs)TDErrorModel(py)localizedDescription",
-            "mangledName": "$s5TDsdk12TDErrorModelC20localizedDescriptionSSvp",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDErrorModel(py)localizedDescription",
+            "mangledName": "$s10cgmcareSDK12TDErrorModelC20localizedDescriptionSSvp",
+            "moduleName": "cgmcareSDK",
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
@@ -1333,9 +1333,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDErrorModel(im)localizedDescription",
-                "mangledName": "$s5TDsdk12TDErrorModelC20localizedDescriptionSSvg",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDErrorModel(im)localizedDescription",
+                "mangledName": "$s10cgmcareSDK12TDErrorModelC20localizedDescriptionSSvg",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -1361,9 +1361,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDErrorModel(im)setLocalizedDescription:",
-                "mangledName": "$s5TDsdk12TDErrorModelC20localizedDescriptionSSvs",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDErrorModel(im)setLocalizedDescription:",
+                "mangledName": "$s10cgmcareSDK12TDErrorModelC20localizedDescriptionSSvs",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -1383,9 +1383,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk12TDErrorModelC20localizedDescriptionSSvM",
-                "mangledName": "$s5TDsdk12TDErrorModelC20localizedDescriptionSSvM",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK12TDErrorModelC20localizedDescriptionSSvM",
+                "mangledName": "$s10cgmcareSDK12TDErrorModelC20localizedDescriptionSSvM",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "accessorKind": "_modify"
@@ -1412,9 +1412,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TDsdk@objc(cs)TDErrorModel(py)error",
-            "mangledName": "$s5TDsdk12TDErrorModelC5errorypSgvp",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDErrorModel(py)error",
+            "mangledName": "$s10cgmcareSDK12TDErrorModelC5errorypSgvp",
+            "moduleName": "cgmcareSDK",
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
@@ -1444,9 +1444,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDErrorModel(im)error",
-                "mangledName": "$s5TDsdk12TDErrorModelC5errorypSgvg",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDErrorModel(im)error",
+                "mangledName": "$s10cgmcareSDK12TDErrorModelC5errorypSgvg",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -1479,9 +1479,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDErrorModel(im)setError:",
-                "mangledName": "$s5TDsdk12TDErrorModelC5errorypSgvs",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDErrorModel(im)setError:",
+                "mangledName": "$s10cgmcareSDK12TDErrorModelC5errorypSgvs",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -1501,9 +1501,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk12TDErrorModelC5errorypSgvM",
-                "mangledName": "$s5TDsdk12TDErrorModelC5errorypSgvM",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK12TDErrorModelC5errorypSgvM",
+                "mangledName": "$s10cgmcareSDK12TDErrorModelC5errorypSgvM",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "accessorKind": "_modify"
@@ -1518,14 +1518,14 @@
               {
                 "kind": "TypeNominal",
                 "name": "TDErrorModel",
-                "printedName": "TDsdk.TDErrorModel",
-                "usr": "c:@M@TDsdk@objc(cs)TDErrorModel"
+                "printedName": "cgmcareSDK.TDErrorModel",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDErrorModel"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@TDsdk@objc(cs)TDErrorModel(im)init",
-            "mangledName": "$s5TDsdk12TDErrorModelCACycfc",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDErrorModel(im)init",
+            "mangledName": "$s10cgmcareSDK12TDErrorModelCACycfc",
+            "moduleName": "cgmcareSDK",
             "overriding": true,
             "implicit": true,
             "objc_name": "init",
@@ -1538,9 +1538,9 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@TDsdk@objc(cs)TDErrorModel",
-        "mangledName": "$s5TDsdk12TDErrorModelC",
-        "moduleName": "TDsdk",
+        "usr": "c:@M@cgmcareSDK@objc(cs)TDErrorModel",
+        "mangledName": "$s10cgmcareSDK12TDErrorModelC",
+        "moduleName": "cgmcareSDK",
         "isOpen": true,
         "declAttributes": [
           "AccessControl",
@@ -1622,9 +1622,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(py)voltage",
-            "mangledName": "$s5TDsdk16TDLibreDataModelC7voltageSSvp",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(py)voltage",
+            "mangledName": "$s10cgmcareSDK16TDLibreDataModelC7voltageSSvp",
+            "moduleName": "cgmcareSDK",
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
@@ -1648,9 +1648,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(im)voltage",
-                "mangledName": "$s5TDsdk16TDLibreDataModelC7voltageSSvg",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(im)voltage",
+                "mangledName": "$s10cgmcareSDK16TDLibreDataModelC7voltageSSvg",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -1676,9 +1676,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(im)setVoltage:",
-                "mangledName": "$s5TDsdk16TDLibreDataModelC7voltageSSvs",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(im)setVoltage:",
+                "mangledName": "$s10cgmcareSDK16TDLibreDataModelC7voltageSSvs",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -1698,9 +1698,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk16TDLibreDataModelC7voltageSSvM",
-                "mangledName": "$s5TDsdk16TDLibreDataModelC7voltageSSvM",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK16TDLibreDataModelC7voltageSSvM",
+                "mangledName": "$s10cgmcareSDK16TDLibreDataModelC7voltageSSvM",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "accessorKind": "_modify"
@@ -1720,9 +1720,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(py)bleName",
-            "mangledName": "$s5TDsdk16TDLibreDataModelC7bleNameSSvp",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(py)bleName",
+            "mangledName": "$s10cgmcareSDK16TDLibreDataModelC7bleNameSSvp",
+            "moduleName": "cgmcareSDK",
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
@@ -1746,9 +1746,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(im)bleName",
-                "mangledName": "$s5TDsdk16TDLibreDataModelC7bleNameSSvg",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(im)bleName",
+                "mangledName": "$s10cgmcareSDK16TDLibreDataModelC7bleNameSSvg",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -1774,9 +1774,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(im)setBleName:",
-                "mangledName": "$s5TDsdk16TDLibreDataModelC7bleNameSSvs",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(im)setBleName:",
+                "mangledName": "$s10cgmcareSDK16TDLibreDataModelC7bleNameSSvs",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -1796,9 +1796,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk16TDLibreDataModelC7bleNameSSvM",
-                "mangledName": "$s5TDsdk16TDLibreDataModelC7bleNameSSvM",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK16TDLibreDataModelC7bleNameSSvM",
+                "mangledName": "$s10cgmcareSDK16TDLibreDataModelC7bleNameSSvM",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "accessorKind": "_modify"
@@ -1813,22 +1813,22 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[TDsdk.TDGlucoseDataModel]",
+                "printedName": "[cgmcareSDK.TDGlucoseDataModel]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "TDGlucoseDataModel",
-                    "printedName": "TDsdk.TDGlucoseDataModel",
-                    "usr": "c:@M@TDsdk@objc(cs)TDGlucoseDataModel"
+                    "printedName": "cgmcareSDK.TDGlucoseDataModel",
+                    "usr": "c:@M@cgmcareSDK@objc(cs)TDGlucoseDataModel"
                   }
                 ],
                 "usr": "s:Sa"
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(py)glucoseDataArr",
-            "mangledName": "$s5TDsdk16TDLibreDataModelC07glucoseC3ArrSayAA09TDGlucosecD0CGvp",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(py)glucoseDataArr",
+            "mangledName": "$s10cgmcareSDK16TDLibreDataModelC07glucoseD3ArrSayAA09TDGlucosedE0CGvp",
+            "moduleName": "cgmcareSDK",
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
@@ -1847,22 +1847,22 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[TDsdk.TDGlucoseDataModel]",
+                    "printedName": "[cgmcareSDK.TDGlucoseDataModel]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "TDGlucoseDataModel",
-                        "printedName": "TDsdk.TDGlucoseDataModel",
-                        "usr": "c:@M@TDsdk@objc(cs)TDGlucoseDataModel"
+                        "printedName": "cgmcareSDK.TDGlucoseDataModel",
+                        "usr": "c:@M@cgmcareSDK@objc(cs)TDGlucoseDataModel"
                       }
                     ],
                     "usr": "s:Sa"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(im)glucoseDataArr",
-                "mangledName": "$s5TDsdk16TDLibreDataModelC07glucoseC3ArrSayAA09TDGlucosecD0CGvg",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(im)glucoseDataArr",
+                "mangledName": "$s10cgmcareSDK16TDLibreDataModelC07glucoseD3ArrSayAA09TDGlucosedE0CGvg",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -1883,22 +1883,22 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[TDsdk.TDGlucoseDataModel]",
+                    "printedName": "[cgmcareSDK.TDGlucoseDataModel]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "TDGlucoseDataModel",
-                        "printedName": "TDsdk.TDGlucoseDataModel",
-                        "usr": "c:@M@TDsdk@objc(cs)TDGlucoseDataModel"
+                        "printedName": "cgmcareSDK.TDGlucoseDataModel",
+                        "usr": "c:@M@cgmcareSDK@objc(cs)TDGlucoseDataModel"
                       }
                     ],
                     "usr": "s:Sa"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(im)setGlucoseDataArr:",
-                "mangledName": "$s5TDsdk16TDLibreDataModelC07glucoseC3ArrSayAA09TDGlucosecD0CGvs",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(im)setGlucoseDataArr:",
+                "mangledName": "$s10cgmcareSDK16TDLibreDataModelC07glucoseD3ArrSayAA09TDGlucosedE0CGvs",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -1918,9 +1918,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk16TDLibreDataModelC07glucoseC3ArrSayAA09TDGlucosecD0CGvM",
-                "mangledName": "$s5TDsdk16TDLibreDataModelC07glucoseC3ArrSayAA09TDGlucosecD0CGvM",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK16TDLibreDataModelC07glucoseD3ArrSayAA09TDGlucosedE0CGvM",
+                "mangledName": "$s10cgmcareSDK16TDLibreDataModelC07glucoseD3ArrSayAA09TDGlucosedE0CGvM",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "accessorKind": "_modify"
@@ -1935,14 +1935,14 @@
               {
                 "kind": "TypeNominal",
                 "name": "TDLibreSensorType",
-                "printedName": "TDsdk.TDLibreSensorType",
+                "printedName": "cgmcareSDK.TDLibreSensorType",
                 "usr": "c:@E@TDLibreSensorType"
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(py)sensorType",
-            "mangledName": "$s5TDsdk16TDLibreDataModelC10sensorTypeSo0b6SensorF0Vvp",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(py)sensorType",
+            "mangledName": "$s10cgmcareSDK16TDLibreDataModelC10sensorTypeSo0c6SensorG0Vvp",
+            "moduleName": "cgmcareSDK",
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
@@ -1961,14 +1961,14 @@
                   {
                     "kind": "TypeNominal",
                     "name": "TDLibreSensorType",
-                    "printedName": "TDsdk.TDLibreSensorType",
+                    "printedName": "cgmcareSDK.TDLibreSensorType",
                     "usr": "c:@E@TDLibreSensorType"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(im)sensorType",
-                "mangledName": "$s5TDsdk16TDLibreDataModelC10sensorTypeSo0b6SensorF0Vvg",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(im)sensorType",
+                "mangledName": "$s10cgmcareSDK16TDLibreDataModelC10sensorTypeSo0c6SensorG0Vvg",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -1989,14 +1989,14 @@
                   {
                     "kind": "TypeNominal",
                     "name": "TDLibreSensorType",
-                    "printedName": "TDsdk.TDLibreSensorType",
+                    "printedName": "cgmcareSDK.TDLibreSensorType",
                     "usr": "c:@E@TDLibreSensorType"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(im)setSensorType:",
-                "mangledName": "$s5TDsdk16TDLibreDataModelC10sensorTypeSo0b6SensorF0Vvs",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(im)setSensorType:",
+                "mangledName": "$s10cgmcareSDK16TDLibreDataModelC10sensorTypeSo0c6SensorG0Vvs",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -2016,9 +2016,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk16TDLibreDataModelC10sensorTypeSo0b6SensorF0VvM",
-                "mangledName": "$s5TDsdk16TDLibreDataModelC10sensorTypeSo0b6SensorF0VvM",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK16TDLibreDataModelC10sensorTypeSo0c6SensorG0VvM",
+                "mangledName": "$s10cgmcareSDK16TDLibreDataModelC10sensorTypeSo0c6SensorG0VvM",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "accessorKind": "_modify"
@@ -2033,14 +2033,14 @@
               {
                 "kind": "TypeNominal",
                 "name": "TDLibreSensorState",
-                "printedName": "TDsdk.TDLibreSensorState",
+                "printedName": "cgmcareSDK.TDLibreSensorState",
                 "usr": "c:@E@TDLibreSensorState"
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(py)sensorState",
-            "mangledName": "$s5TDsdk16TDLibreDataModelC11sensorStateSo0b6SensorF0Vvp",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(py)sensorState",
+            "mangledName": "$s10cgmcareSDK16TDLibreDataModelC11sensorStateSo0c6SensorG0Vvp",
+            "moduleName": "cgmcareSDK",
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
@@ -2059,14 +2059,14 @@
                   {
                     "kind": "TypeNominal",
                     "name": "TDLibreSensorState",
-                    "printedName": "TDsdk.TDLibreSensorState",
+                    "printedName": "cgmcareSDK.TDLibreSensorState",
                     "usr": "c:@E@TDLibreSensorState"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(im)sensorState",
-                "mangledName": "$s5TDsdk16TDLibreDataModelC11sensorStateSo0b6SensorF0Vvg",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(im)sensorState",
+                "mangledName": "$s10cgmcareSDK16TDLibreDataModelC11sensorStateSo0c6SensorG0Vvg",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -2087,14 +2087,14 @@
                   {
                     "kind": "TypeNominal",
                     "name": "TDLibreSensorState",
-                    "printedName": "TDsdk.TDLibreSensorState",
+                    "printedName": "cgmcareSDK.TDLibreSensorState",
                     "usr": "c:@E@TDLibreSensorState"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(im)setSensorState:",
-                "mangledName": "$s5TDsdk16TDLibreDataModelC11sensorStateSo0b6SensorF0Vvs",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(im)setSensorState:",
+                "mangledName": "$s10cgmcareSDK16TDLibreDataModelC11sensorStateSo0c6SensorG0Vvs",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -2114,9 +2114,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk16TDLibreDataModelC11sensorStateSo0b6SensorF0VvM",
-                "mangledName": "$s5TDsdk16TDLibreDataModelC11sensorStateSo0b6SensorF0VvM",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK16TDLibreDataModelC11sensorStateSo0c6SensorG0VvM",
+                "mangledName": "$s10cgmcareSDK16TDLibreDataModelC11sensorStateSo0c6SensorG0VvM",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "accessorKind": "_modify"
@@ -2136,9 +2136,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(py)sensorSerialNumber",
-            "mangledName": "$s5TDsdk16TDLibreDataModelC18sensorSerialNumberSSvp",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(py)sensorSerialNumber",
+            "mangledName": "$s10cgmcareSDK16TDLibreDataModelC18sensorSerialNumberSSvp",
+            "moduleName": "cgmcareSDK",
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
@@ -2162,9 +2162,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(im)sensorSerialNumber",
-                "mangledName": "$s5TDsdk16TDLibreDataModelC18sensorSerialNumberSSvg",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(im)sensorSerialNumber",
+                "mangledName": "$s10cgmcareSDK16TDLibreDataModelC18sensorSerialNumberSSvg",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -2190,9 +2190,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(im)setSensorSerialNumber:",
-                "mangledName": "$s5TDsdk16TDLibreDataModelC18sensorSerialNumberSSvs",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(im)setSensorSerialNumber:",
+                "mangledName": "$s10cgmcareSDK16TDLibreDataModelC18sensorSerialNumberSSvs",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -2212,9 +2212,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk16TDLibreDataModelC18sensorSerialNumberSSvM",
-                "mangledName": "$s5TDsdk16TDLibreDataModelC18sensorSerialNumberSSvM",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK16TDLibreDataModelC18sensorSerialNumberSSvM",
+                "mangledName": "$s10cgmcareSDK16TDLibreDataModelC18sensorSerialNumberSSvM",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "accessorKind": "_modify"
@@ -2234,9 +2234,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(py)sensorStartTime",
-            "mangledName": "$s5TDsdk16TDLibreDataModelC15sensorStartTimeSSvp",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(py)sensorStartTime",
+            "mangledName": "$s10cgmcareSDK16TDLibreDataModelC15sensorStartTimeSSvp",
+            "moduleName": "cgmcareSDK",
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
@@ -2260,9 +2260,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(im)sensorStartTime",
-                "mangledName": "$s5TDsdk16TDLibreDataModelC15sensorStartTimeSSvg",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(im)sensorStartTime",
+                "mangledName": "$s10cgmcareSDK16TDLibreDataModelC15sensorStartTimeSSvg",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -2288,9 +2288,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(im)setSensorStartTime:",
-                "mangledName": "$s5TDsdk16TDLibreDataModelC15sensorStartTimeSSvs",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(im)setSensorStartTime:",
+                "mangledName": "$s10cgmcareSDK16TDLibreDataModelC15sensorStartTimeSSvs",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -2310,9 +2310,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk16TDLibreDataModelC15sensorStartTimeSSvM",
-                "mangledName": "$s5TDsdk16TDLibreDataModelC15sensorStartTimeSSvM",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK16TDLibreDataModelC15sensorStartTimeSSvM",
+                "mangledName": "$s10cgmcareSDK16TDLibreDataModelC15sensorStartTimeSSvM",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "accessorKind": "_modify"
@@ -2332,9 +2332,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(py)sensorTime",
-            "mangledName": "$s5TDsdk16TDLibreDataModelC10sensorTimeSivp",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(py)sensorTime",
+            "mangledName": "$s10cgmcareSDK16TDLibreDataModelC10sensorTimeSivp",
+            "moduleName": "cgmcareSDK",
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
@@ -2358,9 +2358,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(im)sensorTime",
-                "mangledName": "$s5TDsdk16TDLibreDataModelC10sensorTimeSivg",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(im)sensorTime",
+                "mangledName": "$s10cgmcareSDK16TDLibreDataModelC10sensorTimeSivg",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -2386,9 +2386,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(im)setSensorTime:",
-                "mangledName": "$s5TDsdk16TDLibreDataModelC10sensorTimeSivs",
-                "moduleName": "TDsdk",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(im)setSensorTime:",
+                "mangledName": "$s10cgmcareSDK16TDLibreDataModelC10sensorTimeSivs",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "declAttributes": [
@@ -2408,9 +2408,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk16TDLibreDataModelC10sensorTimeSivM",
-                "mangledName": "$s5TDsdk16TDLibreDataModelC10sensorTimeSivM",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK16TDLibreDataModelC10sensorTimeSivM",
+                "mangledName": "$s10cgmcareSDK16TDLibreDataModelC10sensorTimeSivM",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "isOpen": true,
                 "accessorKind": "_modify"
@@ -2425,14 +2425,14 @@
               {
                 "kind": "TypeNominal",
                 "name": "TDLibreDataModel",
-                "printedName": "TDsdk.TDLibreDataModel",
-                "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel"
+                "printedName": "cgmcareSDK.TDLibreDataModel",
+                "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel(im)init",
-            "mangledName": "$s5TDsdk16TDLibreDataModelCACycfc",
-            "moduleName": "TDsdk",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel(im)init",
+            "mangledName": "$s10cgmcareSDK16TDLibreDataModelCACycfc",
+            "moduleName": "cgmcareSDK",
             "overriding": true,
             "implicit": true,
             "objc_name": "init",
@@ -2445,9 +2445,9 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@TDsdk@objc(cs)TDLibreDataModel",
-        "mangledName": "$s5TDsdk16TDLibreDataModelC",
-        "moduleName": "TDsdk",
+        "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreDataModel",
+        "mangledName": "$s10cgmcareSDK16TDLibreDataModelC",
+        "moduleName": "cgmcareSDK",
         "isOpen": true,
         "declAttributes": [
           "AccessControl",
@@ -2536,9 +2536,9 @@
           }
         ],
         "declKind": "Func",
-        "usr": "s:5TDsdk8addTDLogyyypd_tF",
-        "mangledName": "$s5TDsdk8addTDLogyyypd_tF",
-        "moduleName": "TDsdk",
+        "usr": "s:10cgmcareSDK8addTDLogyyypd_tF",
+        "mangledName": "$s10cgmcareSDK8addTDLogyyypd_tF",
+        "moduleName": "cgmcareSDK",
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -2550,14 +2550,14 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk"
+        "moduleName": "cgmcareSDK"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk",
+        "moduleName": "cgmcareSDK",
         "declAttributes": [
           "RawDocComment"
         ]
@@ -2567,28 +2567,28 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk"
+        "moduleName": "cgmcareSDK"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk"
+        "moduleName": "cgmcareSDK"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk"
+        "moduleName": "cgmcareSDK"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk",
+        "moduleName": "cgmcareSDK",
         "declAttributes": [
           "RawDocComment"
         ]
@@ -2598,14 +2598,14 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk"
+        "moduleName": "cgmcareSDK"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk",
+        "moduleName": "cgmcareSDK",
         "declAttributes": [
           "RawDocComment"
         ]
@@ -2623,24 +2623,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(TDsdk.LibreSensorState.Type) -> TDsdk.LibreSensorState",
+                "printedName": "(cgmcareSDK.LibreSensorState.Type) -> cgmcareSDK.LibreSensorState",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "LibreSensorState",
-                    "printedName": "TDsdk.LibreSensorState",
-                    "usr": "s:5TDsdk16LibreSensorStateO"
+                    "printedName": "cgmcareSDK.LibreSensorState",
+                    "usr": "s:10cgmcareSDK16LibreSensorStateO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "TDsdk.LibreSensorState.Type",
+                    "printedName": "cgmcareSDK.LibreSensorState.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "LibreSensorState",
-                        "printedName": "TDsdk.LibreSensorState",
-                        "usr": "s:5TDsdk16LibreSensorStateO"
+                        "printedName": "cgmcareSDK.LibreSensorState",
+                        "usr": "s:10cgmcareSDK16LibreSensorStateO"
                       }
                     ]
                   }
@@ -2648,9 +2648,9 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:5TDsdk16LibreSensorStateO13notYetStartedyA2CmF",
-            "mangledName": "$s5TDsdk16LibreSensorStateO13notYetStartedyA2CmF",
-            "moduleName": "TDsdk"
+            "usr": "s:10cgmcareSDK16LibreSensorStateO13notYetStartedyA2CmF",
+            "mangledName": "$s10cgmcareSDK16LibreSensorStateO13notYetStartedyA2CmF",
+            "moduleName": "cgmcareSDK"
           },
           {
             "kind": "Var",
@@ -2660,24 +2660,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(TDsdk.LibreSensorState.Type) -> TDsdk.LibreSensorState",
+                "printedName": "(cgmcareSDK.LibreSensorState.Type) -> cgmcareSDK.LibreSensorState",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "LibreSensorState",
-                    "printedName": "TDsdk.LibreSensorState",
-                    "usr": "s:5TDsdk16LibreSensorStateO"
+                    "printedName": "cgmcareSDK.LibreSensorState",
+                    "usr": "s:10cgmcareSDK16LibreSensorStateO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "TDsdk.LibreSensorState.Type",
+                    "printedName": "cgmcareSDK.LibreSensorState.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "LibreSensorState",
-                        "printedName": "TDsdk.LibreSensorState",
-                        "usr": "s:5TDsdk16LibreSensorStateO"
+                        "printedName": "cgmcareSDK.LibreSensorState",
+                        "usr": "s:10cgmcareSDK16LibreSensorStateO"
                       }
                     ]
                   }
@@ -2685,9 +2685,9 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:5TDsdk16LibreSensorStateO8startingyA2CmF",
-            "mangledName": "$s5TDsdk16LibreSensorStateO8startingyA2CmF",
-            "moduleName": "TDsdk"
+            "usr": "s:10cgmcareSDK16LibreSensorStateO8startingyA2CmF",
+            "mangledName": "$s10cgmcareSDK16LibreSensorStateO8startingyA2CmF",
+            "moduleName": "cgmcareSDK"
           },
           {
             "kind": "Var",
@@ -2697,24 +2697,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(TDsdk.LibreSensorState.Type) -> TDsdk.LibreSensorState",
+                "printedName": "(cgmcareSDK.LibreSensorState.Type) -> cgmcareSDK.LibreSensorState",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "LibreSensorState",
-                    "printedName": "TDsdk.LibreSensorState",
-                    "usr": "s:5TDsdk16LibreSensorStateO"
+                    "printedName": "cgmcareSDK.LibreSensorState",
+                    "usr": "s:10cgmcareSDK16LibreSensorStateO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "TDsdk.LibreSensorState.Type",
+                    "printedName": "cgmcareSDK.LibreSensorState.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "LibreSensorState",
-                        "printedName": "TDsdk.LibreSensorState",
-                        "usr": "s:5TDsdk16LibreSensorStateO"
+                        "printedName": "cgmcareSDK.LibreSensorState",
+                        "usr": "s:10cgmcareSDK16LibreSensorStateO"
                       }
                     ]
                   }
@@ -2722,9 +2722,9 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:5TDsdk16LibreSensorStateO5readyyA2CmF",
-            "mangledName": "$s5TDsdk16LibreSensorStateO5readyyA2CmF",
-            "moduleName": "TDsdk"
+            "usr": "s:10cgmcareSDK16LibreSensorStateO5readyyA2CmF",
+            "mangledName": "$s10cgmcareSDK16LibreSensorStateO5readyyA2CmF",
+            "moduleName": "cgmcareSDK"
           },
           {
             "kind": "Var",
@@ -2734,24 +2734,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(TDsdk.LibreSensorState.Type) -> TDsdk.LibreSensorState",
+                "printedName": "(cgmcareSDK.LibreSensorState.Type) -> cgmcareSDK.LibreSensorState",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "LibreSensorState",
-                    "printedName": "TDsdk.LibreSensorState",
-                    "usr": "s:5TDsdk16LibreSensorStateO"
+                    "printedName": "cgmcareSDK.LibreSensorState",
+                    "usr": "s:10cgmcareSDK16LibreSensorStateO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "TDsdk.LibreSensorState.Type",
+                    "printedName": "cgmcareSDK.LibreSensorState.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "LibreSensorState",
-                        "printedName": "TDsdk.LibreSensorState",
-                        "usr": "s:5TDsdk16LibreSensorStateO"
+                        "printedName": "cgmcareSDK.LibreSensorState",
+                        "usr": "s:10cgmcareSDK16LibreSensorStateO"
                       }
                     ]
                   }
@@ -2759,9 +2759,9 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:5TDsdk16LibreSensorStateO7expiredyA2CmF",
-            "mangledName": "$s5TDsdk16LibreSensorStateO7expiredyA2CmF",
-            "moduleName": "TDsdk"
+            "usr": "s:10cgmcareSDK16LibreSensorStateO7expiredyA2CmF",
+            "mangledName": "$s10cgmcareSDK16LibreSensorStateO7expiredyA2CmF",
+            "moduleName": "cgmcareSDK"
           },
           {
             "kind": "Var",
@@ -2771,24 +2771,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(TDsdk.LibreSensorState.Type) -> TDsdk.LibreSensorState",
+                "printedName": "(cgmcareSDK.LibreSensorState.Type) -> cgmcareSDK.LibreSensorState",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "LibreSensorState",
-                    "printedName": "TDsdk.LibreSensorState",
-                    "usr": "s:5TDsdk16LibreSensorStateO"
+                    "printedName": "cgmcareSDK.LibreSensorState",
+                    "usr": "s:10cgmcareSDK16LibreSensorStateO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "TDsdk.LibreSensorState.Type",
+                    "printedName": "cgmcareSDK.LibreSensorState.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "LibreSensorState",
-                        "printedName": "TDsdk.LibreSensorState",
-                        "usr": "s:5TDsdk16LibreSensorStateO"
+                        "printedName": "cgmcareSDK.LibreSensorState",
+                        "usr": "s:10cgmcareSDK16LibreSensorStateO"
                       }
                     ]
                   }
@@ -2796,9 +2796,9 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:5TDsdk16LibreSensorStateO8shutdownyA2CmF",
-            "mangledName": "$s5TDsdk16LibreSensorStateO8shutdownyA2CmF",
-            "moduleName": "TDsdk"
+            "usr": "s:10cgmcareSDK16LibreSensorStateO8shutdownyA2CmF",
+            "mangledName": "$s10cgmcareSDK16LibreSensorStateO8shutdownyA2CmF",
+            "moduleName": "cgmcareSDK"
           },
           {
             "kind": "Var",
@@ -2808,24 +2808,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(TDsdk.LibreSensorState.Type) -> TDsdk.LibreSensorState",
+                "printedName": "(cgmcareSDK.LibreSensorState.Type) -> cgmcareSDK.LibreSensorState",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "LibreSensorState",
-                    "printedName": "TDsdk.LibreSensorState",
-                    "usr": "s:5TDsdk16LibreSensorStateO"
+                    "printedName": "cgmcareSDK.LibreSensorState",
+                    "usr": "s:10cgmcareSDK16LibreSensorStateO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "TDsdk.LibreSensorState.Type",
+                    "printedName": "cgmcareSDK.LibreSensorState.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "LibreSensorState",
-                        "printedName": "TDsdk.LibreSensorState",
-                        "usr": "s:5TDsdk16LibreSensorStateO"
+                        "printedName": "cgmcareSDK.LibreSensorState",
+                        "usr": "s:10cgmcareSDK16LibreSensorStateO"
                       }
                     ]
                   }
@@ -2833,9 +2833,9 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:5TDsdk16LibreSensorStateO7failureyA2CmF",
-            "mangledName": "$s5TDsdk16LibreSensorStateO7failureyA2CmF",
-            "moduleName": "TDsdk"
+            "usr": "s:10cgmcareSDK16LibreSensorStateO7failureyA2CmF",
+            "mangledName": "$s10cgmcareSDK16LibreSensorStateO7failureyA2CmF",
+            "moduleName": "cgmcareSDK"
           },
           {
             "kind": "Var",
@@ -2845,24 +2845,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(TDsdk.LibreSensorState.Type) -> TDsdk.LibreSensorState",
+                "printedName": "(cgmcareSDK.LibreSensorState.Type) -> cgmcareSDK.LibreSensorState",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "LibreSensorState",
-                    "printedName": "TDsdk.LibreSensorState",
-                    "usr": "s:5TDsdk16LibreSensorStateO"
+                    "printedName": "cgmcareSDK.LibreSensorState",
+                    "usr": "s:10cgmcareSDK16LibreSensorStateO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "TDsdk.LibreSensorState.Type",
+                    "printedName": "cgmcareSDK.LibreSensorState.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "LibreSensorState",
-                        "printedName": "TDsdk.LibreSensorState",
-                        "usr": "s:5TDsdk16LibreSensorStateO"
+                        "printedName": "cgmcareSDK.LibreSensorState",
+                        "usr": "s:10cgmcareSDK16LibreSensorStateO"
                       }
                     ]
                   }
@@ -2870,9 +2870,9 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:5TDsdk16LibreSensorStateO7unknownyA2CmF",
-            "mangledName": "$s5TDsdk16LibreSensorStateO7unknownyA2CmF",
-            "moduleName": "TDsdk"
+            "usr": "s:10cgmcareSDK16LibreSensorStateO7unknownyA2CmF",
+            "mangledName": "$s10cgmcareSDK16LibreSensorStateO7unknownyA2CmF",
+            "moduleName": "cgmcareSDK"
           },
           {
             "kind": "Function",
@@ -2888,20 +2888,20 @@
               {
                 "kind": "TypeNominal",
                 "name": "LibreSensorState",
-                "printedName": "TDsdk.LibreSensorState",
-                "usr": "s:5TDsdk16LibreSensorStateO"
+                "printedName": "cgmcareSDK.LibreSensorState",
+                "usr": "s:10cgmcareSDK16LibreSensorStateO"
               },
               {
                 "kind": "TypeNominal",
                 "name": "LibreSensorState",
-                "printedName": "TDsdk.LibreSensorState",
-                "usr": "s:5TDsdk16LibreSensorStateO"
+                "printedName": "cgmcareSDK.LibreSensorState",
+                "usr": "s:10cgmcareSDK16LibreSensorStateO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:5TDsdk16LibreSensorStateO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s5TDsdk16LibreSensorStateO2eeoiySbAC_ACtFZ",
-            "moduleName": "TDsdk",
+            "usr": "s:10cgmcareSDK16LibreSensorStateO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10cgmcareSDK16LibreSensorStateO2eeoiySbAC_ACtFZ",
+            "moduleName": "cgmcareSDK",
             "static": true,
             "implicit": true,
             "funcSelfKind": "NonMutating"
@@ -2919,9 +2919,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TDsdk16LibreSensorStateO9hashValueSivp",
-            "mangledName": "$s5TDsdk16LibreSensorStateO9hashValueSivp",
-            "moduleName": "TDsdk",
+            "usr": "s:10cgmcareSDK16LibreSensorStateO9hashValueSivp",
+            "mangledName": "$s10cgmcareSDK16LibreSensorStateO9hashValueSivp",
+            "moduleName": "cgmcareSDK",
             "implicit": true,
             "accessors": [
               {
@@ -2937,9 +2937,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk16LibreSensorStateO9hashValueSivg",
-                "mangledName": "$s5TDsdk16LibreSensorStateO9hashValueSivg",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK16LibreSensorStateO9hashValueSivg",
+                "mangledName": "$s10cgmcareSDK16LibreSensorStateO9hashValueSivg",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "get"
               }
@@ -2964,17 +2964,17 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5TDsdk16LibreSensorStateO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s5TDsdk16LibreSensorStateO4hash4intoys6HasherVz_tF",
-            "moduleName": "TDsdk",
+            "usr": "s:10cgmcareSDK16LibreSensorStateO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s10cgmcareSDK16LibreSensorStateO4hash4intoys6HasherVz_tF",
+            "moduleName": "cgmcareSDK",
             "implicit": true,
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
-        "usr": "s:5TDsdk16LibreSensorStateO",
-        "mangledName": "$s5TDsdk16LibreSensorStateO",
-        "moduleName": "TDsdk",
+        "usr": "s:10cgmcareSDK16LibreSensorStateO",
+        "mangledName": "$s10cgmcareSDK16LibreSensorStateO",
+        "moduleName": "cgmcareSDK",
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -3001,79 +3001,79 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk"
+        "moduleName": "cgmcareSDK"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk"
+        "moduleName": "cgmcareSDK"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk"
+        "moduleName": "cgmcareSDK"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk"
+        "moduleName": "cgmcareSDK"
       },
       {
         "kind": "Import",
         "name": "CryptoKit",
         "printedName": "CryptoKit",
         "declKind": "Import",
-        "moduleName": "TDsdk"
+        "moduleName": "cgmcareSDK"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk"
+        "moduleName": "cgmcareSDK"
       },
       {
         "kind": "Import",
         "name": "os",
         "printedName": "os",
         "declKind": "Import",
-        "moduleName": "TDsdk"
+        "moduleName": "cgmcareSDK"
       },
       {
         "kind": "Import",
         "name": "SpriteKit",
         "printedName": "SpriteKit",
         "declKind": "Import",
-        "moduleName": "TDsdk"
+        "moduleName": "cgmcareSDK"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk"
+        "moduleName": "cgmcareSDK"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk"
+        "moduleName": "cgmcareSDK"
       },
       {
         "kind": "TypeDecl",
         "name": "GlucoseData",
         "printedName": "GlucoseData",
         "declKind": "Class",
-        "usr": "s:5TDsdk11GlucoseDataC",
-        "mangledName": "$s5TDsdk11GlucoseDataC",
-        "moduleName": "TDsdk",
+        "usr": "s:10cgmcareSDK11GlucoseDataC",
+        "mangledName": "$s10cgmcareSDK11GlucoseDataC",
+        "moduleName": "cgmcareSDK",
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -3085,14 +3085,14 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk"
+        "moduleName": "cgmcareSDK"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk",
+        "moduleName": "cgmcareSDK",
         "declAttributes": [
           "RawDocComment"
         ]
@@ -3115,9 +3115,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV06slope_F0Sdvp",
-            "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV06slope_F0Sdvp",
-            "moduleName": "TDsdk",
+            "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV06slope_G0Sdvp",
+            "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV06slope_G0Sdvp",
+            "moduleName": "cgmcareSDK",
             "declAttributes": [
               "HasStorage",
               "AccessControl"
@@ -3137,9 +3137,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV06slope_F0Sdvg",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV06slope_F0Sdvg",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV06slope_G0Sdvg",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV06slope_G0Sdvg",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "get"
               },
@@ -3161,9 +3161,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV06slope_F0Sdvs",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV06slope_F0Sdvs",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV06slope_G0Sdvs",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV06slope_G0Sdvs",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "set"
               },
@@ -3179,9 +3179,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV06slope_F0SdvM",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV06slope_F0SdvM",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV06slope_G0SdvM",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV06slope_G0SdvM",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
               }
@@ -3200,9 +3200,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV12slope_offsetSdvp",
-            "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV12slope_offsetSdvp",
-            "moduleName": "TDsdk",
+            "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV12slope_offsetSdvp",
+            "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV12slope_offsetSdvp",
+            "moduleName": "cgmcareSDK",
             "declAttributes": [
               "HasStorage",
               "AccessControl"
@@ -3222,9 +3222,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV12slope_offsetSdvg",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV12slope_offsetSdvg",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV12slope_offsetSdvg",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV12slope_offsetSdvg",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "get"
               },
@@ -3246,9 +3246,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV12slope_offsetSdvs",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV12slope_offsetSdvs",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV12slope_offsetSdvs",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV12slope_offsetSdvs",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "set"
               },
@@ -3264,9 +3264,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV12slope_offsetSdvM",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV12slope_offsetSdvM",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV12slope_offsetSdvM",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV12slope_offsetSdvM",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
               }
@@ -3285,9 +3285,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV12offset_slopeSdvp",
-            "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV12offset_slopeSdvp",
-            "moduleName": "TDsdk",
+            "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV12offset_slopeSdvp",
+            "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV12offset_slopeSdvp",
+            "moduleName": "cgmcareSDK",
             "declAttributes": [
               "HasStorage",
               "AccessControl"
@@ -3307,9 +3307,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV12offset_slopeSdvg",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV12offset_slopeSdvg",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV12offset_slopeSdvg",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV12offset_slopeSdvg",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "get"
               },
@@ -3331,9 +3331,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV12offset_slopeSdvs",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV12offset_slopeSdvs",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV12offset_slopeSdvs",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV12offset_slopeSdvs",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "set"
               },
@@ -3349,9 +3349,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV12offset_slopeSdvM",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV12offset_slopeSdvM",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV12offset_slopeSdvM",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV12offset_slopeSdvM",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
               }
@@ -3370,9 +3370,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV07offset_F0Sdvp",
-            "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV07offset_F0Sdvp",
-            "moduleName": "TDsdk",
+            "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV07offset_G0Sdvp",
+            "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV07offset_G0Sdvp",
+            "moduleName": "cgmcareSDK",
             "declAttributes": [
               "HasStorage",
               "AccessControl"
@@ -3392,9 +3392,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV07offset_F0Sdvg",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV07offset_F0Sdvg",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV07offset_G0Sdvg",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV07offset_G0Sdvg",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "get"
               },
@@ -3416,9 +3416,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV07offset_F0Sdvs",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV07offset_F0Sdvs",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV07offset_G0Sdvs",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV07offset_G0Sdvs",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "set"
               },
@@ -3434,9 +3434,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV07offset_F0SdvM",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV07offset_F0SdvM",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV07offset_G0SdvM",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV07offset_G0SdvM",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
               }
@@ -3455,9 +3455,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV31isValidForFooterWithReverseCRCsSivp",
-            "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV31isValidForFooterWithReverseCRCsSivp",
-            "moduleName": "TDsdk",
+            "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV31isValidForFooterWithReverseCRCsSivp",
+            "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV31isValidForFooterWithReverseCRCsSivp",
+            "moduleName": "cgmcareSDK",
             "declAttributes": [
               "HasStorage",
               "AccessControl"
@@ -3477,9 +3477,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV31isValidForFooterWithReverseCRCsSivg",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV31isValidForFooterWithReverseCRCsSivg",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV31isValidForFooterWithReverseCRCsSivg",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV31isValidForFooterWithReverseCRCsSivg",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "get"
               },
@@ -3501,9 +3501,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV31isValidForFooterWithReverseCRCsSivs",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV31isValidForFooterWithReverseCRCsSivs",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV31isValidForFooterWithReverseCRCsSivs",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV31isValidForFooterWithReverseCRCsSivs",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "set"
               },
@@ -3519,9 +3519,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV31isValidForFooterWithReverseCRCsSivM",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV31isValidForFooterWithReverseCRCsSivM",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV31isValidForFooterWithReverseCRCsSivM",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV31isValidForFooterWithReverseCRCsSivM",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
               }
@@ -3540,9 +3540,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV10extraSlopeSdvp",
-            "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV10extraSlopeSdvp",
-            "moduleName": "TDsdk",
+            "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV10extraSlopeSdvp",
+            "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV10extraSlopeSdvp",
+            "moduleName": "cgmcareSDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -3563,9 +3563,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV10extraSlopeSdvg",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV10extraSlopeSdvg",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV10extraSlopeSdvg",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV10extraSlopeSdvg",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "get"
               },
@@ -3587,9 +3587,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV10extraSlopeSdvs",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV10extraSlopeSdvs",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV10extraSlopeSdvs",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV10extraSlopeSdvs",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "set"
               },
@@ -3605,9 +3605,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV10extraSlopeSdvM",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV10extraSlopeSdvM",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV10extraSlopeSdvM",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV10extraSlopeSdvM",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
               }
@@ -3626,9 +3626,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV11extraOffsetSdvp",
-            "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV11extraOffsetSdvp",
-            "moduleName": "TDsdk",
+            "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV11extraOffsetSdvp",
+            "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV11extraOffsetSdvp",
+            "moduleName": "cgmcareSDK",
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -3649,9 +3649,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV11extraOffsetSdvg",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV11extraOffsetSdvg",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV11extraOffsetSdvg",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV11extraOffsetSdvg",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "get"
               },
@@ -3673,9 +3673,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV11extraOffsetSdvs",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV11extraOffsetSdvs",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV11extraOffsetSdvs",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV11extraOffsetSdvs",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "set"
               },
@@ -3691,9 +3691,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV11extraOffsetSdvM",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV11extraOffsetSdvM",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV11extraOffsetSdvM",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV11extraOffsetSdvM",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
               }
@@ -3712,9 +3712,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV12serialNumberSSvp",
-            "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV12serialNumberSSvp",
-            "moduleName": "TDsdk",
+            "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV12serialNumberSSvp",
+            "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV12serialNumberSSvp",
+            "moduleName": "cgmcareSDK",
             "declAttributes": [
               "HasStorage",
               "AccessControl"
@@ -3734,9 +3734,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV12serialNumberSSvg",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV12serialNumberSSvg",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV12serialNumberSSvg",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV12serialNumberSSvg",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "get"
               },
@@ -3758,9 +3758,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV12serialNumberSSvs",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV12serialNumberSSvs",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV12serialNumberSSvs",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV12serialNumberSSvs",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "set"
               },
@@ -3776,9 +3776,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV12serialNumberSSvM",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV12serialNumberSSvM",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV12serialNumberSSvM",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV12serialNumberSSvM",
+                "moduleName": "cgmcareSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
               }
@@ -3797,9 +3797,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV11descriptionSSvp",
-            "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV11descriptionSSvp",
-            "moduleName": "TDsdk",
+            "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV11descriptionSSvp",
+            "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV11descriptionSSvp",
+            "moduleName": "cgmcareSDK",
             "declAttributes": [
               "AccessControl"
             ],
@@ -3817,9 +3817,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV11descriptionSSvg",
-                "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV11descriptionSSvg",
-                "moduleName": "TDsdk",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV11descriptionSSvg",
+                "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV11descriptionSSvg",
+                "moduleName": "cgmcareSDK",
                 "accessorKind": "get"
               }
             ]
@@ -3832,8 +3832,8 @@
               {
                 "kind": "TypeNominal",
                 "name": "Libre1DerivedAlgorithmParameters",
-                "printedName": "TDsdk.Libre1DerivedAlgorithmParameters",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV"
+                "printedName": "cgmcareSDK.Libre1DerivedAlgorithmParameters",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV"
               },
               {
                 "kind": "TypeNominal",
@@ -3885,9 +3885,9 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV06slope_F00F7_offset0g1_F00g1_G031isValidForFooterWithReverseCRCs10extraSlope0O6Offset18sensorSerialNumberACSd_S3dSiS2dSStcfc",
-            "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV06slope_F00F7_offset0g1_F00g1_G031isValidForFooterWithReverseCRCs10extraSlope0O6Offset18sensorSerialNumberACSd_S3dSiS2dSStcfc",
-            "moduleName": "TDsdk",
+            "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV06slope_G00G7_offset0h1_G00h1_H031isValidForFooterWithReverseCRCs10extraSlope0P6Offset18sensorSerialNumberACSd_S3dSiS2dSStcfc",
+            "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV06slope_G00G7_offset0h1_G00h1_H031isValidForFooterWithReverseCRCs10extraSlope0P6Offset18sensorSerialNumberACSd_S3dSiS2dSStcfc",
+            "moduleName": "cgmcareSDK",
             "declAttributes": [
               "AccessControl"
             ],
@@ -3901,8 +3901,8 @@
               {
                 "kind": "TypeNominal",
                 "name": "Libre1DerivedAlgorithmParameters",
-                "printedName": "TDsdk.Libre1DerivedAlgorithmParameters",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV"
+                "printedName": "cgmcareSDK.Libre1DerivedAlgorithmParameters",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV"
               },
               {
                 "kind": "TypeNominal",
@@ -3918,9 +3918,9 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV5bytes12serialNumberAC10Foundation4DataV_SStcfc",
-            "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV5bytes12serialNumberAC10Foundation4DataV_SStcfc",
-            "moduleName": "TDsdk",
+            "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV5bytes12serialNumberAC10Foundation4DataV_SStcfc",
+            "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV5bytes12serialNumberAC10Foundation4DataV_SStcfc",
+            "moduleName": "cgmcareSDK",
             "declAttributes": [
               "AccessControl"
             ],
@@ -3934,8 +3934,8 @@
               {
                 "kind": "TypeNominal",
                 "name": "Libre1DerivedAlgorithmParameters",
-                "printedName": "TDsdk.Libre1DerivedAlgorithmParameters",
-                "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV"
+                "printedName": "cgmcareSDK.Libre1DerivedAlgorithmParameters",
+                "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV"
               },
               {
                 "kind": "TypeNominal",
@@ -3945,9 +3945,9 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "TDsdk",
+            "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "cgmcareSDK",
             "implicit": true,
             "throwing": true,
             "init_kind": "Designated"
@@ -3970,18 +3970,18 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV6encode2toys7Encoder_p_tKF",
-            "moduleName": "TDsdk",
+            "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV6encode2toys7Encoder_p_tKF",
+            "moduleName": "cgmcareSDK",
             "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
-        "usr": "s:5TDsdk32Libre1DerivedAlgorithmParametersV",
-        "mangledName": "$s5TDsdk32Libre1DerivedAlgorithmParametersV",
-        "moduleName": "TDsdk",
+        "usr": "s:10cgmcareSDK32Libre1DerivedAlgorithmParametersV",
+        "mangledName": "$s10cgmcareSDK32Libre1DerivedAlgorithmParametersV",
+        "moduleName": "cgmcareSDK",
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -4015,14 +4015,14 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk"
+        "moduleName": "cgmcareSDK"
       },
       {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk"
+        "moduleName": "cgmcareSDK"
       },
       {
         "kind": "TypeDecl",
@@ -4037,8 +4037,8 @@
               {
                 "kind": "TypeNominal",
                 "name": "LibreCalibrationInfo",
-                "printedName": "TDsdk.LibreCalibrationInfo",
-                "usr": "s:5TDsdk20LibreCalibrationInfoV"
+                "printedName": "cgmcareSDK.LibreCalibrationInfo",
+                "usr": "s:10cgmcareSDK20LibreCalibrationInfoV"
               },
               {
                 "kind": "TypeNominal",
@@ -4048,9 +4048,9 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:5TDsdk20LibreCalibrationInfoV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s5TDsdk20LibreCalibrationInfoV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "TDsdk",
+            "usr": "s:10cgmcareSDK20LibreCalibrationInfoV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s10cgmcareSDK20LibreCalibrationInfoV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "cgmcareSDK",
             "implicit": true,
             "throwing": true,
             "init_kind": "Designated"
@@ -4073,18 +4073,18 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:5TDsdk20LibreCalibrationInfoV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s5TDsdk20LibreCalibrationInfoV6encode2toys7Encoder_p_tKF",
-            "moduleName": "TDsdk",
+            "usr": "s:10cgmcareSDK20LibreCalibrationInfoV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10cgmcareSDK20LibreCalibrationInfoV6encode2toys7Encoder_p_tKF",
+            "moduleName": "cgmcareSDK",
             "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
-        "usr": "s:5TDsdk20LibreCalibrationInfoV",
-        "mangledName": "$s5TDsdk20LibreCalibrationInfoV",
-        "moduleName": "TDsdk",
+        "usr": "s:10cgmcareSDK20LibreCalibrationInfoV",
+        "mangledName": "$s10cgmcareSDK20LibreCalibrationInfoV",
+        "moduleName": "cgmcareSDK",
         "declAttributes": [
           "AccessControl"
         ],
@@ -4110,7 +4110,7 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "TDsdk"
+        "moduleName": "cgmcareSDK"
       },
       {
         "kind": "TypeDecl",
@@ -4130,9 +4130,9 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10Foundation4DataV5TDsdkE16hexEncodedStringSSyF",
-            "mangledName": "$s10Foundation4DataV5TDsdkE16hexEncodedStringSSyF",
-            "moduleName": "TDsdk",
+            "usr": "s:10Foundation4DataV10cgmcareSDKE16hexEncodedStringSSyF",
+            "mangledName": "$s10Foundation4DataV10cgmcareSDKE16hexEncodedStringSSyF",
+            "moduleName": "cgmcareSDK",
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -4653,9 +4653,9 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:Sd5TDsdkE8rawValueSdSgSd_tcfc",
-            "mangledName": "$sSd5TDsdkE8rawValueSdSgSd_tcfc",
-            "moduleName": "TDsdk",
+            "usr": "s:Sd10cgmcareSDKE8rawValueSdSgSd_tcfc",
+            "mangledName": "$sSd10cgmcareSDKE8rawValueSdSgSd_tcfc",
+            "moduleName": "cgmcareSDK",
             "declAttributes": [
               "AccessControl"
             ],
@@ -4675,9 +4675,9 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:Sd5TDsdkE8rawValueSdvp",
-            "mangledName": "$sSd5TDsdkE8rawValueSdvp",
-            "moduleName": "TDsdk",
+            "usr": "s:Sd10cgmcareSDKE8rawValueSdvp",
+            "mangledName": "$sSd10cgmcareSDKE8rawValueSdvp",
+            "moduleName": "cgmcareSDK",
             "declAttributes": [
               "AccessControl"
             ],
@@ -4696,9 +4696,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:Sd5TDsdkE8rawValueSdvg",
-                "mangledName": "$sSd5TDsdkE8rawValueSdvg",
-                "moduleName": "TDsdk",
+                "usr": "s:Sd10cgmcareSDKE8rawValueSdvg",
+                "mangledName": "$sSd10cgmcareSDKE8rawValueSdvg",
+                "moduleName": "cgmcareSDK",
                 "isFromExtension": true,
                 "accessorKind": "get"
               }
@@ -5708,7 +5708,7 @@
       "kind": "StringLiteral",
       "offset": 3585,
       "length": 12,
-      "value": "\"TDsdk.TDErrorModel\""
+      "value": "\"cgmcareSDK.TDErrorModel\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDLibreManager.swift",

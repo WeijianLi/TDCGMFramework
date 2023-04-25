@@ -1,20 +1,19 @@
 //
-//  TDsdk.h
-//  TDsdk
+//  cgmcareSDK.h
+//  cgmcareSDK
 //
 //  Created by 李伟健 on 2023/4/25.
 //
 
 #import <Foundation/Foundation.h>
 
-//! Project version number for TDsdk.
-FOUNDATION_EXPORT double TDsdkVersionNumber;
+//! Project version number for cgmcareSDK.
+FOUNDATION_EXPORT double cgmcareSDKVersionNumber;
 
-//! Project version string for TDsdk.
-FOUNDATION_EXPORT const unsigned char TDsdkVersionString[];
+//! Project version string for cgmcareSDK.
+FOUNDATION_EXPORT const unsigned char cgmcareSDKVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <TDsdk/PublicHeader.h>
-
+// In this header, you should import all the public headers of your framework using statements like #import <cgmcareSDK/PublicHeader.h>
 
 #import <CommonCrypto/CommonCryptor.h>
 
@@ -46,3 +45,4 @@ typedef NS_ENUM(int, TDErrorType) {
     ErrorType_BLEUnauthorized             = 6,//没有蓝牙权限
     ErrorType_Unauthorized                = 7,//sdk未授权
 };
+

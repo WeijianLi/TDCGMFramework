@@ -7,7 +7,7 @@
 
 import UIKit
 import CoreBluetooth
-import TDSDK
+import cgmcareSDK
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     //    let appSecret = "i50QOn2jqr2WwqnVp2CL2lz505Qe052Q"
@@ -74,6 +74,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             }
             
         };
+        auth(UIButton())
     }
 
     @IBAction func connect(_ sender: Any) {
@@ -105,6 +106,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         TDLibreManager.auth(appSecret: appSecret) { [self] error in
             if error == nil {
                 showMsg("授权成功")
+                TDLibreManager.connectTDLibreBLE(peripheralName: TDLibreManager.getPeripheralName())
             }else{
                 showMsg("授权结果 = " + error!.localizedDescription)
             }

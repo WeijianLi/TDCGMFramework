@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint TDSDK.podspec' to ensure this is a
+#  Be sure to run `pod spec lint cgmcareSDK.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "TDSDK"
+  spec.name         = "cgmcareSDK"
   spec.version      = "2.0.8"
   spec.summary      = "糖动SDK"
 
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-        使用nfc或糖动发射器读取libre1血糖数据
+            使用nfc或糖动发射器读取libre1血糖数据
                    DESC
 
   spec.homepage     = "https://github.com/WeijianLi/TDCGMFramework.git"
@@ -91,8 +91,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = 'TDCGMFramework/TDSDK.framework/Headers/*.{h}'
-  spec.vendored_frameworks = 'TDCGMFramework/TDSDK.framework'
+  spec.source_files  = 'TDCGMFramework/cgmcareSDK.framework/Headers/*.{h}'
+  spec.vendored_frameworks = 'TDCGMFramework/cgmcareSDK.framework'
   spec.swift_versions = "5.0"
 
   # spec.public_header_files = "Classes/**/*.h"

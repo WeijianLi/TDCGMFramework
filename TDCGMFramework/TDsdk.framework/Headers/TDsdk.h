@@ -1,19 +1,19 @@
 //
-//  TDSDK.h
-//  TDSDK
+//  TDsdk.h
+//  TDsdk
 //
 //  Created by 李伟健 on 2023/4/25.
 //
 
 #import <Foundation/Foundation.h>
 
-//! Project version number for TDSDK.
-FOUNDATION_EXPORT double TDSDKVersionNumber;
+//! Project version number for TDsdk.
+FOUNDATION_EXPORT double TDsdkVersionNumber;
 
-//! Project version string for TDSDK.
-FOUNDATION_EXPORT const unsigned char TDSDKVersionString[];
+//! Project version string for TDsdk.
+FOUNDATION_EXPORT const unsigned char TDsdkVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <TDSDK/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <TDsdk/PublicHeader.h>
 
 
 #import <CommonCrypto/CommonCryptor.h>

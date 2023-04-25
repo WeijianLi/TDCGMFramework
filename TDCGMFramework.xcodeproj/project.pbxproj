@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CD4E719129F77CBC00B4FA1D /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4E719029F77CBC00B4FA1D /* NotificationHandler.swift */; };
-		CD4E719329F77EC300B4FA1D /* TDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4E719229F77EC300B4FA1D /* TDSDK.framework */; };
 		CD4E719529F77F6C00B4FA1D /* TDExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4E719429F77F6C00B4FA1D /* TDExtensions.swift */; };
+		CD4E71C929F7B25E00B4FA1D /* TDsdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4E71C829F7B25E00B4FA1D /* TDsdk.framework */; };
 		CDBDF28429E8F7D9001909DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBDF28329E8F7D9001909DC /* AppDelegate.swift */; };
 		CDBDF28629E8F7D9001909DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBDF28529E8F7D9001909DC /* SceneDelegate.swift */; };
 		CDBDF28D29E8F7DC001909DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDBDF28C29E8F7DC001909DC /* Assets.xcassets */; };
@@ -40,8 +40,8 @@
 
 /* Begin PBXFileReference section */
 		CD4E719029F77CBC00B4FA1D /* NotificationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
-		CD4E719229F77EC300B4FA1D /* TDSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TDSDK.framework; sourceTree = "<group>"; };
 		CD4E719429F77F6C00B4FA1D /* TDExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDExtensions.swift; sourceTree = "<group>"; };
+		CD4E71C829F7B25E00B4FA1D /* TDsdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TDsdk.framework; sourceTree = "<group>"; };
 		CD83294929ECF790009FC149 /* TDCGMFramework.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TDCGMFramework.entitlements; sourceTree = "<group>"; };
 		CDBDF28029E8F7D9001909DC /* TDCGMFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDCGMFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDBDF28329E8F7D9001909DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD4E719329F77EC300B4FA1D /* TDSDK.framework in Frameworks */,
+				CD4E71C929F7B25E00B4FA1D /* TDsdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,8 +107,8 @@
 		CDBDF28229E8F7D9001909DC /* TDCGMFramework */ = {
 			isa = PBXGroup;
 			children = (
+				CD4E71C829F7B25E00B4FA1D /* TDsdk.framework */,
 				CD83294929ECF790009FC149 /* TDCGMFramework.entitlements */,
-				CD4E719229F77EC300B4FA1D /* TDSDK.framework */,
 				CDBDF28329E8F7D9001909DC /* AppDelegate.swift */,
 				CDC9754E29F67DED00ADE238 /* ViewController.swift */,
 				CDBDF28529E8F7D9001909DC /* SceneDelegate.swift */,

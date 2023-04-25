@@ -91,8 +91,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = 'TDCGMFramework/TDFramework.framework/Headers/*.{h}'
-  spec.vendored_frameworks = 'TDCGMFramework/TDFramework.framework'
+  spec.source_files  = 'TDCGMFramework/TDSDK.framework/Headers/*.{h}'
+  spec.vendored_frameworks = 'TDCGMFramework/TDSDK.framework'
   spec.swift_versions = "5.0"
 
   # spec.public_header_files = "Classes/**/*.h"

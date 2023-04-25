@@ -235,7 +235,7 @@ using UInt = size_t;
 @import ObjectiveC;
 #endif
 
-#import <TDSDK/TDSDK.h>
+#import <TDsdk/TDsdk.h>
 
 #endif
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -250,14 +250,14 @@ using UInt = size_t;
 #if __has_attribute(external_source_symbol)
 # pragma push_macro("any")
 # undef any
-# pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="TDSDK",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
+# pragma clang attribute push(__attribute__((external_source_symbol(language="Swift", defined_in="TDsdk",generated_declaration))), apply_to=any(function,enum,objc_interface,objc_category,objc_protocol))
 # pragma pop_macro("any")
 #endif
 
 #if defined(__OBJC__)
 @class NSString;
 
-SWIFT_CLASS("_TtC5TDSDK12TDErrorModel")
+SWIFT_CLASS("_TtC5TDsdk12TDErrorModel")
 @interface TDErrorModel : NSObject
 @property (nonatomic) TDErrorType code;
 @property (nonatomic, copy) NSString * _Nonnull localizedDescription;
@@ -268,7 +268,7 @@ SWIFT_CLASS("_TtC5TDSDK12TDErrorModel")
 
 @class NSDate;
 
-SWIFT_CLASS("_TtC5TDSDK18TDGlucoseDataModel")
+SWIFT_CLASS("_TtC5TDsdk18TDGlucoseDataModel")
 @interface TDGlucoseDataModel : NSObject
 @property (nonatomic, copy) NSDate * _Nullable time;
 @property (nonatomic) double glucose;
@@ -276,7 +276,7 @@ SWIFT_CLASS("_TtC5TDSDK18TDGlucoseDataModel")
 @end
 
 
-SWIFT_CLASS("_TtC5TDSDK16TDLibreDataModel")
+SWIFT_CLASS("_TtC5TDsdk16TDLibreDataModel")
 @interface TDLibreDataModel : NSObject
 @property (nonatomic, copy) NSString * _Nonnull voltage;
 @property (nonatomic, copy) NSString * _Nonnull bleName;
@@ -291,7 +291,7 @@ SWIFT_CLASS("_TtC5TDSDK16TDLibreDataModel")
 
 @class CBPeripheral;
 
-SWIFT_CLASS("_TtC5TDSDK14TDLibreManager")
+SWIFT_CLASS("_TtC5TDsdk14TDLibreManager")
 @interface TDLibreManager : NSObject
 /// 版本号
 ///

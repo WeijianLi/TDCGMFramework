@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/cgmcareSDK-Swift.h</key>
 		<data>
-		0GDxcAk5roPFnr90pEptK2F5RPQ=
+		m4WhKh+2Lxb/dFcuODirc+Jp1DU=
 		</data>
 		<key>Headers/cgmcareSDK.h</key>
 		<data>
@@ -14,35 +14,35 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gCedpLcMLmEFgbugWgf4qaJhVQc=
+		8FShB9PzBlJeDYk9/io5ZHelhMo=
 		</data>
 		<key>Modules/cgmcareSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		Fzarg4S1tBbcgnzBjtE/YuQLuQQ=
+		LJvJXqIyr1Q8qtC7Opr1MvCavfM=
 		</data>
 		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		0XfDXbzWsGrOyP3Mw/mW+a2lAdk=
+		W/Ikg6HMR/Rgx5F0mEpWOugMdVQ=
 		</data>
 		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		i4rn9FAbNI/87UQ9GkwGqJuvvHQ=
+		H/LpaRhzcyaqoX6Bf34fVlGPRdo=
 		</data>
 		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		T6j/cnahHFDhZV6qMR2K1Tto3OA=
+		J92ZM4heduO+GrpjhR7S7cUIXMs=
 		</data>
 		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		i4rn9FAbNI/87UQ9GkwGqJuvvHQ=
+		H/LpaRhzcyaqoX6Bf34fVlGPRdo=
 		</data>
 		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		hfswKwNOroGDN3kHIViE7rtgFbg=
+		tc5fzb8HuFNTM4XFa1kWY51wL0g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		qjtFlRC4MN9vhbZLBS6kP4+no08=
+		fTtJjJnYaoZ41lyzkGhrz/SYrF8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,11 +51,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0GDxcAk5roPFnr90pEptK2F5RPQ=
+			m4WhKh+2Lxb/dFcuODirc+Jp1DU=
 			</data>
 			<key>hash2</key>
 			<data>
-			p+1vlLzKJ4pv5ob9kLLDJAL6Dz0gTQSeHAYTn5EEQCE=
+			1QTw3O5yHxNJbxZC8JTC6dod0eWuQ/uMZy/jcylmJwM=
 			</data>
 		</dict>
 		<key>Headers/cgmcareSDK.h</key>
@@ -73,77 +73,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Fzarg4S1tBbcgnzBjtE/YuQLuQQ=
+			LJvJXqIyr1Q8qtC7Opr1MvCavfM=
 			</data>
 			<key>hash2</key>
 			<data>
-			RAk9FqfY+YA6kPqvj1D9z6/ujPQ8JAs4Sd5+3kKlLww=
+			SZp9T3Yf/VgPOA+Nvzgd13s2mGnETnsZdnKDLUQiPg8=
 			</data>
 		</dict>
 		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0XfDXbzWsGrOyP3Mw/mW+a2lAdk=
+			W/Ikg6HMR/Rgx5F0mEpWOugMdVQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			hSGyVg0Lf3FV+yIGS8Zp/TB8oFXlgzUHiQ9wocFzDOU=
+			iswgmKGMHYE/wSYTLFvWCmwUmcC4N+CIu+o2K/aY/qM=
 			</data>
 		</dict>
 		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			i4rn9FAbNI/87UQ9GkwGqJuvvHQ=
+			H/LpaRhzcyaqoX6Bf34fVlGPRdo=
 			</data>
 			<key>hash2</key>
 			<data>
-			l+WM1M/RuRoVRu+Soj891Bm/Y4w78OXXKbXs5+3I4+g=
+			N2VRmUJFEOl1Eb1iUKg2G0UCMww4MN8Do1MeuKwNPIo=
 			</data>
 		</dict>
 		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			T6j/cnahHFDhZV6qMR2K1Tto3OA=
+			J92ZM4heduO+GrpjhR7S7cUIXMs=
 			</data>
 			<key>hash2</key>
 			<data>
-			bkHyKTk8BtUEg6OflLGSdbHfO6QYPGuae+jFPT5XfjI=
+			Sx5IIwno1h45LESHfI0KPLVsywusuCTi3xC8bS8a8cg=
 			</data>
 		</dict>
 		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			i4rn9FAbNI/87UQ9GkwGqJuvvHQ=
+			H/LpaRhzcyaqoX6Bf34fVlGPRdo=
 			</data>
 			<key>hash2</key>
 			<data>
-			l+WM1M/RuRoVRu+Soj891Bm/Y4w78OXXKbXs5+3I4+g=
+			N2VRmUJFEOl1Eb1iUKg2G0UCMww4MN8Do1MeuKwNPIo=
 			</data>
 		</dict>
 		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hfswKwNOroGDN3kHIViE7rtgFbg=
+			tc5fzb8HuFNTM4XFa1kWY51wL0g=
 			</data>
 			<key>hash2</key>
 			<data>
-			mLVhlFlogTk8EtnEMIXZGWGL3gaizKn4rORoMh9utlY=
+			+2YchS8gHtDW9EhtdYe04zPswQQ6F5XKafiNW8IrIEQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qjtFlRC4MN9vhbZLBS6kP4+no08=
+			fTtJjJnYaoZ41lyzkGhrz/SYrF8=
 			</data>
 			<key>hash2</key>
 			<data>
-			PKEpv5EJF2K7Q4/MGrpr05PUXkVt7mqXvCfwZVcc0I8=
+			R7cPYmZHXWLpi9CPcTzBKhHiGnQVOKenH1nsllPGw5k=
 			</data>
 		</dict>
 	</dict>

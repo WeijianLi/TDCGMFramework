@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		CD4E719129F77CBC00B4FA1D /* NotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4E719029F77CBC00B4FA1D /* NotificationHandler.swift */; };
 		CD4E719529F77F6C00B4FA1D /* TDExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4E719429F77F6C00B4FA1D /* TDExtensions.swift */; };
-		CD4E720029F7B7E500B4FA1D /* cgmcareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4E71FF29F7B7E500B4FA1D /* cgmcareSDK.framework */; };
+		CD9F52512BEF01E600FC636E /* cgmcareSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9F52502BEF01E600FC636E /* cgmcareSDK.framework */; };
 		CDBDF28429E8F7D9001909DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBDF28329E8F7D9001909DC /* AppDelegate.swift */; };
 		CDBDF28629E8F7D9001909DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBDF28529E8F7D9001909DC /* SceneDelegate.swift */; };
 		CDBDF28D29E8F7DC001909DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDBDF28C29E8F7DC001909DC /* Assets.xcassets */; };
@@ -41,8 +41,8 @@
 /* Begin PBXFileReference section */
 		CD4E719029F77CBC00B4FA1D /* NotificationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationHandler.swift; sourceTree = "<group>"; };
 		CD4E719429F77F6C00B4FA1D /* TDExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDExtensions.swift; sourceTree = "<group>"; };
-		CD4E71FF29F7B7E500B4FA1D /* cgmcareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = cgmcareSDK.framework; sourceTree = "<group>"; };
 		CD83294929ECF790009FC149 /* TDCGMFramework.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TDCGMFramework.entitlements; sourceTree = "<group>"; };
+		CD9F52502BEF01E600FC636E /* cgmcareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = cgmcareSDK.framework; sourceTree = SOURCE_ROOT; };
 		CDBDF28029E8F7D9001909DC /* TDCGMFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDCGMFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDBDF28329E8F7D9001909DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDBDF28529E8F7D9001909DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD4E720029F7B7E500B4FA1D /* cgmcareSDK.framework in Frameworks */,
+				CD9F52512BEF01E600FC636E /* cgmcareSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,7 +107,7 @@
 		CDBDF28229E8F7D9001909DC /* TDCGMFramework */ = {
 			isa = PBXGroup;
 			children = (
-				CD4E71FF29F7B7E500B4FA1D /* cgmcareSDK.framework */,
+				CD9F52502BEF01E600FC636E /* cgmcareSDK.framework */,
 				CD83294929ECF790009FC149 /* TDCGMFramework.entitlements */,
 				CDBDF28329E8F7D9001909DC /* AppDelegate.swift */,
 				CDC9754E29F67DED00ADE238 /* ViewController.swift */,
@@ -446,10 +446,11 @@
 				CODE_SIGN_ENTITLEMENTS = TDCGMFramework/TDCGMFramework.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3P8YQ2G776;
+				DEVELOPMENT_TEAM = 82WXC8MPWC;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TDCGMFramework",
+					"$(PROJECT_DIR)",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TDCGMFramework/Info.plist;
@@ -467,7 +468,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TD.TDCGMFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = TD.SD.TDCGMFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INCLUDE_PATHS = "";
@@ -487,10 +488,11 @@
 				CODE_SIGN_ENTITLEMENTS = TDCGMFramework/TDCGMFramework.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3P8YQ2G776;
+				DEVELOPMENT_TEAM = 82WXC8MPWC;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TDCGMFramework",
+					"$(PROJECT_DIR)",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TDCGMFramework/Info.plist;
@@ -508,7 +510,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TD.TDCGMFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = TD.SD.TDCGMFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INCLUDE_PATHS = "";
@@ -525,11 +527,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3P8YQ2G776;
+				DEVELOPMENT_TEAM = 82WXC8MPWC;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TD.TDCGMFrameworkTests;
+				PRODUCT_BUNDLE_IDENTIFIER = TD.SD.TDCGMFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -545,11 +547,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3P8YQ2G776;
+				DEVELOPMENT_TEAM = 82WXC8MPWC;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TD.TDCGMFrameworkTests;
+				PRODUCT_BUNDLE_IDENTIFIER = TD.SD.TDCGMFrameworkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -564,11 +566,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3P8YQ2G776;
+				DEVELOPMENT_TEAM = 82WXC8MPWC;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TD.TDCGMFrameworkUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = TD.SD.TDCGMFrameworkUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -583,11 +585,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3P8YQ2G776;
+				DEVELOPMENT_TEAM = 82WXC8MPWC;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = TD.TDCGMFrameworkUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = TD.SD.TDCGMFrameworkUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;

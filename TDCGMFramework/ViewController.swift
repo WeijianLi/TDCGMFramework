@@ -11,7 +11,7 @@ import cgmcareSDK
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     //    let appSecret = "i50QOn2jqr2WwqnVp2CL2lz505Qe052Q"
-    let appSecret = "kg595esfHZN2S2sY9U0ChPPGf94pXCSx"
+    let appSecret = "x6Zrqqnazi4aMmGGfv65qa5g7rBm0SA7"
     @IBOutlet weak var authState: UILabel!
     @IBOutlet weak var bleState: UILabel!
     @IBOutlet weak var tvview: UITextView!

@@ -388,6 +388,10 @@ SWIFT_CLASS("_TtC10cgmcareSDK14TDLibreManager")
 /// \param success 蓝牙列表
 ///
 + (void)scanTDLibreBLEListWithSuccess:(void (^ _Nonnull)(NSArray<CBPeripheral *> * _Nonnull))success;
+/// 扫描糖动蓝牙发射
+/// \param success 蓝牙列表
+///
++ (void)scanTDLibreBLEAndAdvertisementDataListWithSuccess:(void (^ _Nonnull)(NSArray<NSDictionary<NSString *, id> *> * _Nonnull))success;
 /// 连接糖动发射器
 /// \param peripheralName 蓝牙名称
 ///

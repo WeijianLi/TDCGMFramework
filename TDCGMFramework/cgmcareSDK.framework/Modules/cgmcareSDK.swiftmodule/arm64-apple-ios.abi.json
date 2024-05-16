@@ -696,6 +696,69 @@
           },
           {
             "kind": "Function",
+            "name": "scanTDLibreBLEAndAdvertisementDataList",
+            "printedName": "scanTDLibreBLEAndAdvertisementDataList(success:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([[Swift.String : Any]]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[[Swift.String : Any]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@cgmcareSDK@objc(cs)TDLibreManager(cm)scanTDLibreBLEAndAdvertisementDataListWithSuccess:",
+            "mangledName": "$s10cgmcareSDK14TDLibreManagerC04scanC27BLEAndAdvertisementDataList7successyySaySDySSypGGc_tFZ",
+            "moduleName": "cgmcareSDK",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "connectTDLibreBLE",
             "printedName": "connectTDLibreBLE(peripheralName:)",
             "children": [
@@ -6770,15 +6833,36 @@
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDManager.swift",
+      "kind": "Array",
+      "offset": 5387,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDManager.swift",
       "kind": "StringLiteral",
-      "offset": 5677,
+      "offset": 5710,
+      "length": 12,
+      "value": "\"peripheral\""
+    },
+    {
+      "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5734,
+      "length": 19,
+      "value": "\"advertisementData\""
+    },
+    {
+      "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDManager.swift",
+      "kind": "StringLiteral",
+      "offset": 6502,
       "length": 20,
       "value": "\"非糖动发射器\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDManager.swift",
       "kind": "StringLiteral",
-      "offset": 6579,
+      "offset": 7404,
       "length": 20,
       "value": "\"非糖动发射器\""
     },
@@ -6800,27 +6884,27 @@
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDSettingManager.swift",
       "kind": "StringLiteral",
       "offset": 273,
-      "length": 7,
-      "value": "\"2.0.9\""
+      "length": 8,
+      "value": "\"2.0.10\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDSettingManager.swift",
       "kind": "StringLiteral",
-      "offset": 2345,
+      "offset": 2346,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDSettingManager.swift",
       "kind": "Array",
-      "offset": 3074,
+      "offset": 3075,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDSettingManager.swift",
       "kind": "Array",
-      "offset": 3498,
+      "offset": 3499,
       "length": 2,
       "value": "[]"
     },
@@ -7135,602 +7219,644 @@
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "Array",
-      "offset": 842,
+      "offset": 878,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 1585,
+      "offset": 1621,
       "length": 18,
       "value": "\"蓝牙连接 -- \""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 1882,
+      "offset": 1918,
       "length": 20,
       "value": "\"断开蓝牙连接\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 1946,
+      "offset": 1982,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 2218,
+      "offset": 2254,
       "length": 20,
       "value": "\"启动蓝牙扫描\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2439,
+      "offset": 2475,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 2593,
+      "offset": 2629,
       "length": 14,
       "value": "\"TDLibreBLEid\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 2963,
+      "offset": 2999,
       "length": 20,
       "value": "\"恢复蓝牙连接\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 3440,
+      "offset": 3476,
       "length": 29,
       "value": "\"请允许使用蓝牙权限\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 3994,
+      "offset": 4030,
       "length": 23,
       "value": "\"蓝牙服务状态 = \""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 4018,
+      "offset": 4054,
       "length": 31,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 4048,
+      "offset": 4084,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 4050,
+      "offset": 4086,
       "length": 23,
       "value": "\"蓝牙连接状态 = \""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 4074,
+      "offset": 4110,
       "length": 10,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 4083,
+      "offset": 4119,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4135,
+      "offset": 4171,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 4957,
+      "offset": 5011,
       "length": 14,
       "value": "\"连接成功\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 5372,
+      "offset": 5426,
       "length": 14,
       "value": "\"连接失败\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 5654,
+      "offset": 5708,
       "length": 14,
       "value": "\"取消连接\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "Array",
-      "offset": 7485,
+      "offset": 7539,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 7770,
+      "offset": 7824,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 7792,
+      "offset": 7846,
       "length": 17,
       "value": "\"扫描服务 = \""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "Array",
-      "offset": 7925,
+      "offset": 7979,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 8213,
+      "offset": 8267,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 8235,
+      "offset": 8289,
       "length": 17,
       "value": "\"连接服务 = \""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 8921,
+      "offset": 8975,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 8944,
+      "offset": 8998,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 8993,
+      "offset": 9047,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 8999,
+      "offset": 9053,
       "length": 4,
       "value": "\"TD\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9025,
+      "offset": 9079,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 9069,
+      "offset": 9123,
       "length": 9,
       "value": "\"Ble_NFC\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9100,
+      "offset": 9154,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 9130,
+      "offset": 9184,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 10068,
+      "offset": 10122,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 10614,
+      "offset": 10668,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 10685,
+      "offset": 10739,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 10726,
+      "offset": 10780,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 10732,
+      "offset": 10786,
       "length": 4,
       "value": "0x05"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 10833,
+      "offset": 10887,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 10839,
+      "offset": 10893,
       "length": 4,
       "value": "0x06"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 10947,
+      "offset": 11001,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 10953,
+      "offset": 11007,
       "length": 4,
       "value": "0x01"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11080,
+      "offset": 11146,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11188,
+      "offset": 11193,
       "length": 1,
-      "value": "3"
+      "value": "6"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11242,
+      "offset": 11313,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11322,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11335,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11365,
+      "length": 4,
+      "value": "3200"
+    },
+    {
+      "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11402,
+      "length": 4,
+      "value": "3200"
+    },
+    {
+      "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11568,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11622,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 11482,
+      "offset": 11862,
       "length": 41,
       "value": "\"数据获取异常，稍后再来查看\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11752,
+      "offset": 12132,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11758,
+      "offset": 12138,
       "length": 4,
       "value": "0x02"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11835,
+      "offset": 12215,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 11839,
+      "offset": 12219,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 11864,
+      "offset": 12244,
       "length": 10,
       "value": "\"tagId = \""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12026,
+      "offset": 12406,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12032,
+      "offset": 12412,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12113,
+      "offset": 12493,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12142,
+      "offset": 12522,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 12166,
+      "offset": 12546,
       "length": 14,
       "value": "\"patchInfo = \""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12391,
+      "offset": 12771,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12397,
+      "offset": 12777,
       "length": 4,
       "value": "0x0a"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12690,
+      "offset": 13070,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12696,
+      "offset": 13076,
       "length": 4,
       "value": "0x04"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12745,
+      "offset": 13125,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12814,
+      "offset": 13194,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12869,
+      "offset": 13249,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12878,
+      "offset": 13258,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 12977,
+      "offset": 13357,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 13005,
+      "offset": 13385,
       "length": 2,
       "value": "42"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 13047,
+      "offset": 13427,
       "length": 3,
       "value": "344"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 13078,
+      "offset": 13458,
       "length": 31,
       "value": "\"接收数据完成 rawData = \""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "StringLiteral",
-      "offset": 13371,
+      "offset": 13751,
       "length": 38,
       "value": "\"暂不支持此类型瞬感血糖仪\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "Array",
-      "offset": 14050,
+      "offset": 14430,
       "length": 16,
       "value": "[0x01, 0x03, 0x04]"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "Array",
-      "offset": 14300,
+      "offset": 14680,
       "length": 16,
       "value": "[0x02, 0x03, 0x05]"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "Array",
-      "offset": 14550,
+      "offset": 14930,
       "length": 16,
       "value": "[0x03, 0x03, 0x06]"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDBleManager.swift",
       "kind": "Array",
-      "offset": 14800,
+      "offset": 15180,
       "length": 16,
       "value": "[0x04, 0x03, 0x07]"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDLibreManager.swift",
       "kind": "FloatLiteral",
-      "offset": 3555,
+      "offset": 3841,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDLibreManager.swift",
       "kind": "StringLiteral",
-      "offset": 3738,
+      "offset": 4024,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDLibreManager.swift",
       "kind": "StringLiteral",
-      "offset": 3826,
+      "offset": 4112,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDLibreManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3895,
+      "offset": 4181,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDLibreManager.swift",
       "kind": "StringLiteral",
-      "offset": 3917,
+      "offset": 4203,
       "length": 14,
       "value": "\"未知异常\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDLibreManager.swift",
       "kind": "StringLiteral",
-      "offset": 4044,
+      "offset": 4330,
       "length": 8,
       "value": "\"com.td\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDLibreManager.swift",
       "kind": "StringLiteral",
-      "offset": 3585,
+      "offset": 3871,
       "length": 12,
       "value": "\"cgmcareSDK.TDErrorModel\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDLibreManager.swift",
       "kind": "StringLiteral",
-      "offset": 4232,
+      "offset": 4518,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDLibreManager.swift",
       "kind": "StringLiteral",
-      "offset": 4286,
+      "offset": 4572,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDLibreManager.swift",
       "kind": "Array",
-      "offset": 4366,
+      "offset": 4652,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDLibreManager.swift",
       "kind": "StringLiteral",
-      "offset": 4676,
+      "offset": 4962,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDLibreManager.swift",
       "kind": "StringLiteral",
-      "offset": 4744,
+      "offset": 5030,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/liweijian\/Desktop\/framwork\/TDCGMFramework\/TDCGMFramework\/SDKclass\/Manager\/TDLibreManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 4816,
+      "offset": 5102,
       "length": 1,
       "value": "0"
     },

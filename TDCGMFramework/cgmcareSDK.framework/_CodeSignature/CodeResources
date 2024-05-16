@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/cgmcareSDK-Swift.h</key>
 		<data>
-		m4WhKh+2Lxb/dFcuODirc+Jp1DU=
+		lEYufLWkokbr80Pe8+gLjWWOkmA=
 		</data>
 		<key>Headers/cgmcareSDK.h</key>
 		<data>
@@ -18,27 +18,27 @@
 		</data>
 		<key>Modules/cgmcareSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		LJvJXqIyr1Q8qtC7Opr1MvCavfM=
+		4Z/JCcRD1a51A3So+v7loPF9mTs=
 		</data>
 		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		W/Ikg6HMR/Rgx5F0mEpWOugMdVQ=
+		MXDea5WU7CWtHVbrglMLodG7jQQ=
 		</data>
 		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		H/LpaRhzcyaqoX6Bf34fVlGPRdo=
+		dWzCXDa7Pa7ICj0wowwSQnYF0jc=
 		</data>
 		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		J92ZM4heduO+GrpjhR7S7cUIXMs=
+		piB4QiXrfzysRxtVGhOPVwyFohA=
 		</data>
 		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		H/LpaRhzcyaqoX6Bf34fVlGPRdo=
+		dWzCXDa7Pa7ICj0wowwSQnYF0jc=
 		</data>
 		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		tc5fzb8HuFNTM4XFa1kWY51wL0g=
+		4JTldybM+pkXqulcvlRoxP9PdKU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,11 +51,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			m4WhKh+2Lxb/dFcuODirc+Jp1DU=
+			lEYufLWkokbr80Pe8+gLjWWOkmA=
 			</data>
 			<key>hash2</key>
 			<data>
-			1QTw3O5yHxNJbxZC8JTC6dod0eWuQ/uMZy/jcylmJwM=
+			kzSK8sPw5WB59b/XPQbqJqmI5W9OkhitU0PaeHVrrQ0=
 			</data>
 		</dict>
 		<key>Headers/cgmcareSDK.h</key>
@@ -73,66 +73,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LJvJXqIyr1Q8qtC7Opr1MvCavfM=
+			4Z/JCcRD1a51A3So+v7loPF9mTs=
 			</data>
 			<key>hash2</key>
 			<data>
-			SZp9T3Yf/VgPOA+Nvzgd13s2mGnETnsZdnKDLUQiPg8=
+			e9Ch+2oZLcU2dCoYuH8xZJ/RERDkL5QVltspRIYT4+8=
 			</data>
 		</dict>
 		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			W/Ikg6HMR/Rgx5F0mEpWOugMdVQ=
+			MXDea5WU7CWtHVbrglMLodG7jQQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			iswgmKGMHYE/wSYTLFvWCmwUmcC4N+CIu+o2K/aY/qM=
+			G+Vi1W3Krd334sTdj/2EVezxZKL/mTI3s5Y5B1aPxv8=
 			</data>
 		</dict>
 		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H/LpaRhzcyaqoX6Bf34fVlGPRdo=
+			dWzCXDa7Pa7ICj0wowwSQnYF0jc=
 			</data>
 			<key>hash2</key>
 			<data>
-			N2VRmUJFEOl1Eb1iUKg2G0UCMww4MN8Do1MeuKwNPIo=
+			6DOxxEkEtwYsbmq8hmNyNDvtqyWNv+zlTHHAhDykV2E=
 			</data>
 		</dict>
 		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			J92ZM4heduO+GrpjhR7S7cUIXMs=
+			piB4QiXrfzysRxtVGhOPVwyFohA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Sx5IIwno1h45LESHfI0KPLVsywusuCTi3xC8bS8a8cg=
+			TEelyD7kkkQmGTVtRSvc5tUMiPRxTzkis5WqpYH1SUI=
 			</data>
 		</dict>
 		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H/LpaRhzcyaqoX6Bf34fVlGPRdo=
+			dWzCXDa7Pa7ICj0wowwSQnYF0jc=
 			</data>
 			<key>hash2</key>
 			<data>
-			N2VRmUJFEOl1Eb1iUKg2G0UCMww4MN8Do1MeuKwNPIo=
+			6DOxxEkEtwYsbmq8hmNyNDvtqyWNv+zlTHHAhDykV2E=
 			</data>
 		</dict>
 		<key>Modules/cgmcareSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tc5fzb8HuFNTM4XFa1kWY51wL0g=
+			4JTldybM+pkXqulcvlRoxP9PdKU=
 			</data>
 			<key>hash2</key>
 			<data>
-			+2YchS8gHtDW9EhtdYe04zPswQQ6F5XKafiNW8IrIEQ=
+			cxMNygWBlGCZkS8HNYH7MzIQrXJAKPc+MxrthFCCHv4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

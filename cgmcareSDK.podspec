@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "cgmcareSDK"
-  spec.version      = "2.0.9"
+  spec.version      = "2.0.10"
   spec.summary      = "糖动SDK"
 
   # This description is used to generate tags and improve search results.
@@ -91,8 +91,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = 'TDCGMFramework/cgmcareSDK.framework/Headers/*.{h}'
-  spec.vendored_frameworks = 'TDCGMFramework/cgmcareSDK.framework'
+  spec.source_files  = "TDCGMFramework/cgmcareSDK.framework/Headers/*.{h}"
+  spec.vendored_frameworks = "TDCGMFramework/cgmcareSDK.framework"
   spec.swift_versions = "5.0"
 
   # spec.public_header_files = "Classes/**/*.h"

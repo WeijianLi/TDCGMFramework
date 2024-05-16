@@ -85,9 +85,9 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         }
         TDLibreManager.connectTDLibreBLE(peripheralName: name);
     }
-    var bleList :Array<CBPeripheral> = []
+    var bleList :Array<Dictionary<String,Any>> = []
     @IBAction func bleList(_ sender: Any) {
-        TDLibreManager.scanTDLibreBLEList { [self] list in
+        TDLibreManager.scanTDLibreBLEAndAdvertisementDataList { [self] list in
             bleList = list
             tabview.reloadData()
         }
@@ -136,13 +136,21 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell.init()
-        cell.textLabel?.text = bleList[indexPath.row].name
+        let dic = bleList[indexPath.row];
+        let peripheral :CBPeripheral = dic["peripheral"] as! CBPeripheral;
+        let advertisementData :[String : Any] = dic["advertisementData"] as! [String : Any]
+        let kCBAdvDataManufacturerData :Data = advertisementData["kCBAdvDataManufacturerData"] as! Data
+        let macID = kCBAdvDataManufacturerData.suffix(6)
+        cell.textLabel?.text = peripheral.name! + " macID:\(macID.toHexStr)"
         cell.detailTextLabel?.text = "点击链接设备"
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        TDLibreManager.connectTDLibreBLE(peripheral: bleList[indexPath.row])
+        let dic = bleList[indexPath.row];
+        let peripheral :CBPeripheral = dic["peripheral"] as! CBPeripheral;
+        TDLibreManager.connectTDLibreBLE(peripheral: peripheral)
     }
+    
     
 }
 
